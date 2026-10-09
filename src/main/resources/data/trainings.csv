@@ -1,0 +1,18 @@
+training_id,title,category,mandatory,validity_months,target_group,duration_minutes,format
+T-001,Arbeitsschutz – jährliche Unterweisung,Arbeitssicherheit,true,12,Alle,30,E-Learning
+T-002,Datenschutz (DSGVO) Grundlagen,Compliance,true,24,Alle,45,E-Learning
+T-003,Verhaltenskodex & Compliance,Compliance,true,24,Alle,40,E-Learning
+T-004,Informationssicherheit: Phishing erkennen,IT-Sicherheit,true,12,Alle,25,E-Learning
+T-005,Brandschutzunterweisung,Arbeitssicherheit,true,12,Alle,20,E-Learning
+T-006,Umgang mit Gefahrstoffen,Arbeitssicherheit,true,12,"Produktion, Instandhaltung, Logistik, F&E, QM",45,E-Learning
+T-007,Flurförderzeuge – jährliche Unterweisung,Arbeitssicherheit,true,12,Staplerfahrer:innen,60,Präsenz
+T-008,Maschinensicherheit & Lockout/Tagout,Arbeitssicherheit,true,12,"Produktion, Instandhaltung",90,Präsenz
+T-009,Erste-Hilfe-Fortbildung für Ersthelfer:innen,Arbeitssicherheit,true,24,Benannte Ersthelfer:innen,480,Präsenz
+T-010,Allgemeines Gleichbehandlungsgesetz (AGG),Compliance,true,,Alle,30,E-Learning
+T-011,Exportkontrolle & Sanktionslisten,Compliance,true,24,"Vertrieb, Einkauf",60,E-Learning
+T-012,Antikorruption im Vertrieb,Compliance,true,24,Vertrieb,45,E-Learning
+T-013,Führen mit Feedback,Führung,false,,Führungskräfte (freiwillig),240,Präsenz
+T-014,Excel für Fortgeschrittene,Fachkompetenz,false,,Alle (freiwillig),180,Virtuell
+T-015,Präsentieren mit Wirkung,Persönlichkeit,false,,Alle (freiwillig),240,Präsenz
+T-016,Zeit- und Selbstmanagement,Persönlichkeit,false,,Alle (freiwillig),120,Virtuell
+T-017,Business English – Communication,Sprachen,false,,Alle (freiwillig),600,Virtuell

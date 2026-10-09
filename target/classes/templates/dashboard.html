@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Training Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #e2e8f0;
+            color: #1e293b;
+        }
+
+        h1 {
+            margin-bottom: 24px;
+        }
+
+        /* KPI-Karten */
+        .kpi-container {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 24px;
+        }
+
+        .kpi-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #cbd5e1;
+            flex: 1;
+        }
+        .kpi-overdue {
+            background-color: #FEE2E2;
+            color: #991B1B;
+            border-color: #FECACA;
+        }
+        .kpi-old-overdue {
+            margin-top: 12px;
+            padding-top: 10px;
+            border-top: 1px solid #FECACA;
+            font-size: 13px;
+            color: #991B1B;
+        }
+
+        .kpi-today {
+            background-color: #FEF3C7;
+            color: #92400E;
+            border-color: #FDE68A;
+        }
+
+        .kpi-number {
+            display: block;
+            font-size: 32px;
+            font-weight: bold;
+            margin-top: 8px;
+        }
+
+        /* Filter */
+        form {
+            background-color: white;
+            padding: 16px 20px;
+            margin-bottom: 24px;
+            border-radius: 8px;
+            border: 1px solid #cbd5e1;
+        }
+
+        .table-section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #cbd5e1;
+            overflow-x: auto;
+            min-width: 0;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .table-section td {
+            white-space: normal;
+        overflow-wrap: anywhere;
+        }
+        .table-section .pagination {
+            margin-top: auto;
+        padding-top: 16px;
+        }
+        /* Tabs für die Priorisierung */
+        .tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+            border-bottom: 1px solid #cbd5e1;
+        }
+
+        .tab-button {
+            padding: 12px 18px;
+            border: none;
+            background: transparent;
+            color: #475569;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+        }
+
+        .tab-button:hover {
+            background-color: #f1f5f9;
+        }
+
+        .tab-button.active {
+            color: #1d4ed8;
+            border-bottom-color: #1d4ed8;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+        .tab-content.active.table-section {
+            display: flex;
+            box-sizing: border-box;
+        }
+        /* Große Tabelle darunter */
+        .detail-section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #cbd5e1;
+        }
+
+        /* Tabellen */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #cbd5e1;
+            font-size: 13px;
+        }
+
+        th {
+            background-color: #334155;
+            color: white;
+        }
+
+        /* Pagination */
+        .pagination {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-top: 16px;
+        }
+
+        .pagination a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #1d4ed8;
+        }
+        .kpi-expiring {
+            margin-top: 14px;
+            padding-top: 12px;
+            border-top: 1px solid #cbd5e1;
+        }
+
+        .kpi-expiring-label {
+            font-size: 13px;
+            color: #475569;
+            margin-bottom: 6px;
+        }
+
+        .kpi-expiring-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #334155;
+        }
+        .kpi-card:has(.kpi-expiring) {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .kpi-card .kpi-expiring {
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .category-missing {
+            color: #b91c1c;
+            font-weight: bold;
+        }
+
+        .category-other {
+            color: #92400e;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+<h1>Sandras Training Dashboard</h1>
+<div class="kpi-container">
+    <div class="kpi-card kpi-overdue">
+        <span class="kpi-label">Überfällig: </span>
+        <span class="kpi-number" th:text="${overdue}"></span>
+        <div class="kpi-old-overdue">
+            Davon Altlasten:
+            <strong th:text="${oldOverdue}"></strong>
+        </div>
+    </div>
+    <div class="kpi-card kpi-today">
+        <span class="kpi-label">Heute fällig: </span>
+        <span class="kpi-number" th:text="${dueToday}"></span>
+    </div>
+    <div class="kpi-card">
+        <span class="kpi-label">Bald fällig (30 Tage): </span>
+        <span class="kpi-number" th:text="${dueSoon}"></span>
+
+        <div class="kpi-expiring">
+            <div class="kpi-expiring-label">
+                Bald ablaufende Wiederholungen (60 Tage)
+            </div>
+
+            <div class="kpi-expiring-value"
+                 th:text="${expiringSoon}">
+                0
+            </div>
+        </div>
+    </div>
+
+    <div class="kpi-card">
+        <span class="kpi-label">Noch zuzuweisen: </span>
+
+        <span class="kpi-number"
+              th:text="${actionRequiredRows.size()}">0</span>
+
+        <div class="kpi-expiring">
+            <div class="kpi-expiring-label">
+                Weitere fehlende Einzelzuordnungen:
+                <strong th:text="${missingAssignmentCount}">0</strong>
+            </div>
+
+            <div class="kpi-expiring-label">
+                Mitarbeitende ohne Pflichttraining-Zuordnung:
+                <strong th:text="${noMandatoryCount}">0</strong>
+            </div>
+        </div>
+    </div>
+
+</div>
+<p th:if="${completedWithoutDate + missingDueDate > 0}"
+   style="font-size: 13px; color: #475569;">
+    ⚠ Datenqualität:
+    <strong th:text="${completedWithoutDate}">0</strong> abgeschlossen ohne Abschlussdatum,
+    <strong th:text="${missingDueDate}">0</strong> offen ohne Fälligkeitsdatum
+    (in „Überfällig“ nicht enthalten).
+</p>
+
+<form method="get" action="/">
+    <input type="hidden" name="tab" id="activeTabInput" value="training">
+    <label for="location">Standort:</label>
+
+    <select id="location" name="location">
+        <option value="">Alle Standorte</option>
+
+        <option th:each="location : ${locations}"
+                th:value="${location}"
+                th:text="${location}"
+                th:selected="${location == selectedLocation}">
+        </option>
+    </select>
+    <label for="department">Abteilung:</label>
+
+    <select id="department" name="department">
+        <option value="">Alle Abteilungen</option>
+
+        <option th:each="dept : ${departments}"
+                th:value="${dept}"
+                th:text="${dept}"
+                th:selected="${dept == selectedDepartment}">
+        </option>
+    </select>
+    <label for="mandatoryOnly">Trainingsart:</label>
+
+    <select id="mandatoryOnly" name="mandatoryOnly">
+        <option value="true"
+                th:selected="${mandatoryOnly}">
+            Nur Pflichttrainings
+        </option>
+
+        <option value="false"
+                th:selected="${!mandatoryOnly}">
+            Auch freiwillige Trainings
+        </option>
+    </select>
+
+    <button type="submit">Filtern</button>
+</form>
+<h2>Priorisierung</h2>
+
+<div class="tabs">
+    <button type="button"
+            class="tab-button active"
+            data-tab="training">
+        Nach Training
+    </button>
+
+    <button type="button"
+            class="tab-button"
+            data-tab="employee">
+        Nach Mitarbeiter
+    </button>
+
+    <button type="button"
+            class="tab-button"
+            data-tab="manager">
+        Nach Manager
+    </button>
+    <button type="button"
+            class="tab-button"
+            data-tab="assignment">
+        Noch zuzuweisen
+    </button>
+</div>
+
+
+    <!-- Mitarbeiter-Priorisierung -->
+<div id="employee-tab" class="table-section tab-content">
+        <h2>Nach Mitarbeiter:</h2>
+
+        <table>
+            <thead>
+            <tr>
+                <th>Mitarbeiter</th>
+                <th>E-Mail</th>
+                <th>Abteilung</th>
+                <th>Standort</th>
+                <th>Manager</th>
+                <th>Überfällige Trainings</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr th:each="row : ${overdueRows}">
+                <td th:text="${row.employeeName}"></td>
+                <td th:text="${row.email}"></td>
+                <td th:text="${row.department}"></td>
+                <td th:text="${row.location}"></td>
+                <td th:text="${row.managerName}"></td>
+                <td th:text="${row.overdueCount}"></td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!-- Pagination Mitarbeiter -->
+        <div class="pagination">
+
+            <a th:if="${employeeCurrentPage > 0}"
+               th:href="@{/(employeePage=${employeeCurrentPage - 1},
+                managerPage=${managerCurrentPage},
+                           page=${currentPage},
+                           location=${selectedLocation},
+                           department=${selectedDepartment},
+                           mandatoryOnly=${mandatoryOnly})}">
+                ← Zurück
+            </a>
+
+            <span>
+                Seite <span th:text="${employeeCurrentPage + 1}"></span>
+            </span>
+
+            <span>
+                <span th:text="${employeeDisplayStart}"></span>
+                –
+                <span th:text="${employeeEndIndex}"></span>
+                von
+                <span th:text="${employeeTotal}"></span>
+            </span>
+
+            <a th:if="${employeeEndIndex < employeeTotal}"
+               th:href="@{/(employeePage=${employeeCurrentPage + 1},
+                managerPage=${managerCurrentPage},
+                           page=${currentPage},
+                           location=${selectedLocation},
+                           department=${selectedDepartment},
+                           mandatoryOnly=${mandatoryOnly})}">
+                Weiter →
+            </a>
+
+        </div>
+    </div>
+
+
+    <!-- Manager-Priorisierung -->
+<div id="manager-tab" class="table-section tab-content">
+        <h2>Manager-Priorisierung</h2>
+
+        <table>
+            <thead>
+            <tr>
+                <th>Manager</th>
+                <th>E-Mail</th>
+                <th>Betroffene Mitarbeitende</th>
+                <th>Überfällige Trainings</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr th:each="row : ${managerOverdueRows}">
+                <td th:text="${row.managerName}"></td>
+                <td th:text="${row.managerEmail}"></td>
+                <td th:text="${row.affectedEmployees}"></td>
+                <td th:text="${row.overdueCount}"></td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="pagination">
+
+            <a th:if="${managerCurrentPage > 0}"
+               th:href="@{/(managerPage=${managerCurrentPage - 1},
+
+                   employeePage=${employeeCurrentPage},
+                   page=${currentPage},
+                   location=${selectedLocation},
+                   department=${selectedDepartment},
+                   mandatoryOnly=${mandatoryOnly})}">
+                ← Zurück
+            </a>
+
+            <span>
+        Seite <span th:text="${managerCurrentPage + 1}"></span>
+    </span>
+
+            <span>
+        <span th:text="${managerDisplayStart}"></span>
+        –
+        <span th:text="${managerEndIndex}"></span>
+        von
+        <span th:text="${managerTotal}"></span>
+    </span>
+
+            <a th:if="${managerEndIndex < managerTotal}"
+               th:href="@{/(managerPage=${managerCurrentPage + 1},
+                   employeePage=${employeeCurrentPage},
+                   page=${currentPage},
+                   location=${selectedLocation},
+                   department=${selectedDepartment},
+                   mandatoryOnly=${mandatoryOnly})}">
+                Weiter →
+            </a>
+
+        </div>
+    </div>
+
+
+<!-- Priorisierung nach Training -->
+<div id="training-tab" class="detail-section tab-content active" style="margin-bottom: 24px;">
+
+    <h2>Nach Training</h2>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Training</th>
+            <th>Davon nicht gestartet </th>
+            <th>Überfällige Zuweisungen</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr th:each="row : ${trainingOverdueRows}">
+            <td th:text="${row.trainingTitle}"></td>
+            <td th:text="${row.notStartedCount}"></td>
+            <td th:text="${row.overdueCount}"></td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
+
+
+<!-- Handlungsbedarf -->
+<div id="assignment-tab"
+     class="detail-section tab-content"
+     style="margin-bottom: 24px;">
+
+    <h2>
+        Noch zuzuweisen:
+        (<span th:text="${actionRequiredRows.size()}">0</span>)
+    </h2>
+    <p style="margin-top: 8px; margin-bottom: 16px;">
+        Davon Mitarbeitende ohne Pflichttraining-Zuordnung:
+        <strong th:text="${noMandatoryCount}">0</strong>
+    </p>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Kategorie</th>
+            <th>Mitarbeiter</th>
+            <th>Mitarbeiter-ID</th>
+            <th>Training</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr th:each="row : ${assignmentPageRows}">
+            <td>
+    <span th:text="${row.category}"
+          th:class="${row.category == 'Keine Pflichttrainings zugewiesen'}
+          ? 'category-missing'
+          : 'category-other'">
+</span>
+            </td>
+            <td th:text="${row.employeeName}"></td>
+            <td th:text="${row.employeeId}"></td>
+            <td th:text="${row.trainingTitle}"></td>
+        </tr>
+
+        <tr th:if="${#lists.isEmpty(assignmentPageRows)}">
+            <td colspan="4">
+                Keine fehlenden Pflichttraining-Zuordnungen gefunden.
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="pagination">
+
+        <a th:if="${assignmentCurrentPage > 0}"
+           th:href="@{/(assignmentPage=${assignmentCurrentPage - 1},
+                    employeePage=${employeeCurrentPage},
+                    managerPage=${managerCurrentPage},
+                    page=${currentPage},
+                    location=${selectedLocation},
+                    department=${selectedDepartment},
+                    mandatoryOnly=${mandatoryOnly},
+                    tab='assignment')}">
+            ← Zurück
+        </a>
+
+        <span>
+        Seite <span th:text="${assignmentCurrentPage + 1}">1</span>
+    </span>
+
+        <span>
+        <span th:text="${assignmentDisplayStart}">1</span>
+        –
+        <span th:text="${assignmentEndIndex}">20</span>
+        von
+        <span th:text="${assignmentTotal}">217</span>
+    </span>
+
+        <a th:if="${assignmentEndIndex < assignmentTotal}"
+           th:href="@{/(assignmentPage=${assignmentCurrentPage + 1},
+                    employeePage=${employeeCurrentPage},
+                    managerPage=${managerCurrentPage},
+                    page=${currentPage},
+                    location=${selectedLocation},
+                    department=${selectedDepartment},
+                    mandatoryOnly=${mandatoryOnly},
+                    tab='assignment')}">
+            Weiter →
+        </a>
+
+    </div>
+</div>
+<!-- Große Detailtabelle -->
+<div class="detail-section">
+    <h2>
+        Überfällige Trainings
+        (<span th:text="${filteredCount}"></span>)
+    </h2>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Mitarbeiter</th>
+            <th>Training</th>
+            <th>Pflicht?</th>
+            <th>Fälligkeitsdatum</th>
+            <th>Tage überfällig</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr th:each="row : ${overdueTrainingRows}">
+            <td th:text="${row.employeeName}"></td>
+            <td th:text="${row.trainingTitle}"></td>
+            <td th:text="${row.mandatory} ? 'Ja' : 'Nein' "></td>
+            <td th:text="${row.dueDate}"></td>
+            <td th:text="${row.overdueDays}"></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <!-- Pagination Detailtabelle -->
+    <div class="pagination">
+
+        <a th:if="${currentPage > 0}"
+           th:href="@{/(page=${currentPage - 1},
+                       employeePage=${employeeCurrentPage},
+                       managerPage=${managerCurrentPage},
+                       location=${selectedLocation},
+                       department=${selectedDepartment},
+                       mandatoryOnly=${mandatoryOnly})}">
+            ← Zurück
+        </a>
+
+        <span>
+            Seite <span th:text="${currentPage + 1}"></span>
+        </span>
+
+        <span>
+            <span th:text="${displayStart}"></span>
+            –
+            <span th:text="${endIndex}"></span>
+            von
+            <span th:text="${total}"></span>
+        </span>
+
+        <a th:if="${endIndex < total}"
+           th:href="@{/(page=${currentPage + 1},
+                       employeePage=${employeeCurrentPage},
+                       managerPage=${managerCurrentPage},
+                       location=${selectedLocation},
+                       department=${selectedDepartment},
+                       mandatoryOnly=${mandatoryOnly})}">
+            Weiter →
+        </a>
+
+    </div>
+</div>
+<script>
+    const tabButtons = document.querySelectorAll(".tab-button");
+    const tabContents = document.querySelectorAll(".tab-content");
+
+    function activateTab(tabName) {
+        const selectedContent = document.getElementById(tabName + "-tab");
+
+
+        if (!selectedContent) {
+            return;
+        }
+
+        tabButtons.forEach(button => {
+            button.classList.toggle(
+                "active",
+                button.dataset.tab === tabName
+            );
+        });
+
+        tabContents.forEach(content => {
+            content.classList.toggle(
+                "active",
+                content === selectedContent
+            );
+        });
+        const activeTabInput = document.getElementById("activeTabInput");
+        if (activeTabInput) {
+            activeTabInput.value = tabName;
+        }
+    }
+
+    // Beim Laden den Tab aus der URL übernehmen
+    const params = new URLSearchParams(window.location.search);
+    const initialTab = params.get("tab") || "training";
+    activateTab(initialTab);
+    document.getElementById("activeTabInput").value = initialTab;
+    // Aktiven Tab an alle Pagination-Links anhängen
+    document.querySelectorAll(".pagination a").forEach(link => {
+        const url = new URL(link.href);
+
+        url.searchParams.set("tab", initialTab);
+
+        link.href = url.toString();
+    });
+
+    // Beim Anklicken den Tab wechseln und in der URL speichern
+    tabButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            const selectedTab = button.dataset.tab;
+
+            activateTab(selectedTab);
+
+            const url = new URL(window.location.href);
+            url.searchParams.set("tab", selectedTab);
+
+            window.history.replaceState({}, "", url);
+            // Pagination-Links beim Tabwechsel aktualisieren
+            document.querySelectorAll(".pagination a").forEach(link => {
+                const linkUrl = new URL(link.href);
+
+                linkUrl.searchParams.set("tab", selectedTab);
+
+                link.href = linkUrl.toString();
+            });
+        });
+    });
+</script>
+</body>
+</html>
