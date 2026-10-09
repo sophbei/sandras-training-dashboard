@@ -1,0 +1,800 @@
+employee_id,first_name,last_name,email,department,location,job_title,manager_id,hire_date
+E10001,Dimitri,Schulz,dimitri.schulz@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Geschäftsführer:in,,2009-04-01
+E10002,Christian,Braun,christian.braun@hallberg.example,Produktion,Werk Reutlingen,Leitung Produktion,E10001,2018-11-11
+E10003,Jan,Meyer,jan.meyer@hallberg.example,Produktion,Werk Reutlingen,Teamleitung,E10002,2012-09-23
+E10004,Patrick,Kowalski,patrick.kowalski@hallberg.example,Produktion,Werk Reutlingen,Teamleitung,E10002,2014-07-21
+E10005,Miriam,Hartmann,miriam.hartmann@hallberg.example,Produktion,Werk Reutlingen,Teamleitung,E10002,2020-06-21
+E10006,Matthias,Haas,matthias.haas@hallberg.example,Produktion,Werk Reutlingen,Teamleitung,E10002,2022-07-18
+E10007,Noah,Fuchs,noah.fuchs@hallberg.example,Produktion,Werk Reutlingen,Teamleitung,E10002,2019-12-04
+E10008,Emre,Demir,emre.demir@hallberg.example,Produktion,Werk Reutlingen,Teamleitung,E10002,2014-06-21
+E10009,Johanna,Richter,johanna.richter@hallberg.example,Produktion,Werk Reutlingen,Teamleitung,E10002,2011-03-29
+E10010,Oliver,Rossi,oliver.rossi@hallberg.example,Produktion,Werk Reutlingen,Teamleitung,E10002,2011-08-27
+E10011,Julia,Lorenz,julia.lorenz@hallberg.example,Produktion,Werk Reutlingen,Teamleitung,E10002,2010-02-01
+E10012,Dimitri,Rossi,dimitri.rossi@hallberg.example,Produktion,Werk Reutlingen,Teamleitung,E10002,2018-01-22
+E10013,Philipp,Wolf,philipp.wolf@hallberg.example,Produktion,Werk Reutlingen,Teamleitung,E10002,2011-07-26
+E10014,Jürgen,Bauer,juergen.bauer@hallberg.example,Produktion,Werk Reutlingen,Teamleitung,E10002,2015-01-05
+E10015,Ralf,Novak,ralf.novak@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10012,2011-08-05
+E10016,Lukas,Haas,lukas.haas@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10004,2022-09-19
+E10017,Emma,Fuchs,emma.fuchs@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10014,2025-11-20
+E10018,Julia,Yılmaz,julia.yilmaz@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10014,2015-09-27
+E10019,Thomas,Lang,thomas.lang@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10014,2020-02-05
+E10020,Sabine,Keller,sabine.keller@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10009,2023-05-31
+E10021,Jan,Köhler,jan.koehler@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10010,2010-02-24
+E10022,Felix,Koch,felix.koch@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10007,2005-01-30
+E10023,Petra,Schulze,petra.schulze@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10014,2010-11-19
+E10024,Uwe,Schulz,uwe.schulz@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10011,2016-03-02
+E10025,Sabine,Krause,sabine.krause@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10012,2007-04-29
+E10026,Eva,Braun,eva.braun@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10008,2008-12-16
+E10027,Lisa,Jung,lisa.jung@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10009,2014-11-27
+E10028,Jonas,Rossi,jonas.rossi@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10005,2020-04-07
+E10029,Lukas,Albrecht,lukas.albrecht@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10011,2014-04-22
+E10030,Thomas,Winkler,thomas.winkler@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10009,2019-09-26
+E10031,Benjamin,Weber,benjamin.weber@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10010,2015-11-13
+E10032,Alina,Keller,alina.keller@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10003,2016-05-06
+E10033,Julia,Albrecht,julia.albrecht@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10012,2006-09-22
+E10034,Michael,Brenner,michael.brenner@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10007,2009-05-25
+E10035,Christian,Hahn,christian.hahn@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10004,2013-07-30
+E10036,Lea,Hofmann,lea.hofmann@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10003,2010-01-24
+E10037,Dimitri,Kaiser,dimitri.kaiser@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10003,2026-01-14
+E10038,Leon,Beck,leon.beck@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10008,2023-02-18
+E10039,Alexander,Nowak,alexander.nowak@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10007,2023-07-15
+E10040,Michael,Kaya,michael.kaya@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10014,2025-11-12
+E10041,Frank,Huber,frank.huber@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10009,2020-04-16
+E10042,Leon,Keller,leon.keller@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10006,2009-08-28
+E10043,Markus,Huber,markus.huber@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10007,2022-12-08
+E10044,Lukas,Zimmermann,lukas.zimmermann@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10004,2022-01-17
+E10045,Carina,Bauer,carina.bauer@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10006,2012-05-30
+E10046,Simon,Scholz,simon.scholz@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10003,2009-01-14
+E10047,Michael,Fuchs,michael.fuchs@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10010,2013-03-10
+E10048,Laura,Hoffmann,laura.hoffmann@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10009,2024-06-06
+E10049,Andrea,Nowak,andrea.nowak@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10007,2017-06-24
+E10050,Mehmet,Fuchs,mehmet.fuchs@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10005,2023-05-18
+E10051,David,Schwarz,david.schwarz@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10014,2022-01-11
+E10052,Simon,Haas,simon.haas@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10010,2011-06-04
+E10053,Matthias,Winkler,matthias.winkler@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10009,2013-12-17
+E10054,Hannah,König,hannah.koenig@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10009,2020-10-10
+E10055,Nikola,Wolf,nikola.wolf@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10011,2014-10-12
+E10056,Tim,Schröder,tim.schroeder@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10013,2016-05-04
+E10057,Daniel,Neumann,daniel.neumann@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10009,2005-10-28
+E10058,Alina,Köhler,alina.koehler@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10008,2020-11-12
+E10059,Miriam,Peters,miriam.peters@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10009,2013-12-08
+E10060,Carina,Lehmann,carina.lehmann@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10011,2021-01-23
+E10061,Michael,Graf,michael.graf@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10014,2016-05-06
+E10062,Natalia,Wagner,natalia.wagner@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10008,2020-06-18
+E10063,Johanna,Lehmann,johanna.lehmann@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10008,2018-10-26
+E10064,Elif,Roth,elif.roth@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10013,2014-12-12
+E10065,Thomas,Richter,thomas.richter@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10014,2020-05-08
+E10066,Kevin,Hahn,kevin.hahn@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10003,2007-11-03
+E10067,Oliver,Zimmermann,oliver.zimmermann@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10005,2005-03-01
+E10068,Alexander,Koch,alexander.koch@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10003,2007-09-03
+E10069,Natalia,Kaya,natalia.kaya@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10014,2006-10-08
+E10070,Noah,Schwarz,noah.schwarz@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10003,2015-03-27
+E10071,Maximilian,Lange,maximilian.lange@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10007,2025-11-18
+E10072,Birgit,Lange,birgit.lange@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10009,2013-01-02
+E10073,Laura,Koch,laura.koch@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10010,2022-11-23
+E10074,Petra,Roth,petra.roth@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10012,2015-10-18
+E10075,Jana,Schäfer,jana.schaefer@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10012,2019-09-30
+E10076,Dimitri,Haas,dimitri.haas@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10006,2022-08-08
+E10077,Claudia,Meier,claudia.meier@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10009,2017-01-27
+E10078,Philipp,Ferrari,philipp.ferrari@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10014,2013-07-30
+E10079,Philipp,Peters,philipp.peters@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10011,2012-02-18
+E10080,Felix,Schulz,felix.schulz@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10014,2016-04-01
+E10081,Sarah,Walter,sarah.walter@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10003,2023-06-26
+E10082,Ralf,Schmid,ralf.schmid@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10004,2010-03-23
+E10083,Philipp,Weiß,philipp.weiss@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10011,2026-01-03
+E10084,Uwe,Schröder,uwe.schroeder@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10011,2023-09-16
+E10085,Jan,Zimmermann,jan.zimmermann@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10014,2024-02-04
+E10086,Nina,Schneider,nina.schneider@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10009,2010-06-02
+E10087,Mehmet,Roth,mehmet.roth@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10007,2013-12-23
+E10088,Andreas,König,andreas.koenig@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10005,2020-08-18
+E10089,Maximilian,Meier,maximilian.meier@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10006,2024-02-27
+E10090,Eva,Klein,eva.klein@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10012,2017-10-20
+E10091,Florian,Krüger,florian.krueger@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10005,2019-10-31
+E10092,Aylin,Kaiser,aylin.kaiser@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10011,2019-01-19
+E10093,Oliver,Ivanov,oliver.ivanov@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10011,2020-05-06
+E10094,Christian,Graf,christian.graf@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10013,2023-08-05
+E10095,Michael,Winkler,michael.winkler@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10003,2007-03-14
+E10096,Sabine,Hartmann,sabine.hartmann@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10013,2025-10-17
+E10097,Claudia,Popović,claudia.popović@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10010,2013-11-19
+E10098,David,Becker,david.becker@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10005,2017-02-25
+E10099,Dimitri,Keller,dimitri.keller@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10004,2025-05-31
+E10100,Theresa,Schulze,theresa.schulze@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10010,2015-02-25
+E10101,Ralf,Schneider,ralf.schneider@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10013,2019-07-22
+E10102,Philipp,Albrecht,philipp.albrecht@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10011,2008-05-13
+E10103,Marco,Novak,marco.novak@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10010,2019-09-30
+E10104,Matthias,Fuchs,matthias.fuchs@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10014,2009-12-19
+E10105,Markus,Graf,markus.graf@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10006,2014-10-20
+E10106,Ivana,Zimmermann,ivana.zimmermann@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10008,2016-11-11
+E10107,Christian,Neumann,christian.neumann@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10012,2017-10-15
+E10108,Simon,Weber,simon.weber@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10006,2025-01-05
+E10109,Jonas,König,jonas.koenig@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10012,2005-08-28
+E10110,Birgit,Schmitz,birgit.schmitz@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10010,2008-04-07
+E10111,Simon,Mayer,simon.mayer@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10003,2007-09-23
+E10112,Johanna,Vogel,johanna.vogel@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10010,2017-05-23
+E10113,Mehmet,Schmidt,mehmet.schmidt@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10007,2010-12-20
+E10114,Miriam,Winkler,miriam.winkler@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10012,2025-11-06
+E10115,Emma,Fischer,emma.fischer@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10009,2013-11-14
+E10116,Ivana,Berger,ivana.berger@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10004,2015-07-06
+E10117,Sebastian,Neumann,sebastian.neumann@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10003,2024-02-27
+E10118,Philipp,Keller,philipp.keller@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10012,2014-04-13
+E10119,Johanna,Jung,johanna.jung@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10004,2019-11-22
+E10120,Lisa,Demir,lisa.demir@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10003,2018-03-21
+E10121,Markus,Klein,markus.klein@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10007,2016-09-08
+E10122,Sven,Schneider,sven.schneider@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10008,2025-06-06
+E10123,Lukas,Baumann,lukas.baumann@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10013,2023-10-10
+E10124,Sven,Albrecht,sven.albrecht@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10005,2016-12-18
+E10125,Philipp,Haas,philipp.haas@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10011,2006-03-07
+E10126,Philipp,Meyer,philipp.meyer@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10004,2019-12-18
+E10127,Stefan,Yılmaz,stefan.yilmaz@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10012,2009-10-13
+E10128,Sandra,Yılmaz,sandra.yilmaz@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10010,2023-05-20
+E10129,Marie,König,marie.koenig@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10007,2010-01-12
+E10130,Lisa,Rossi,lisa.rossi@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10012,2007-03-03
+E10131,Maximilian,Richter,maximilian.richter@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10009,2024-03-11
+E10132,Stefan,Weiß,stefan.weiss@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10013,2018-02-27
+E10133,Marie,Hofmann,marie.hofmann@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10005,2013-11-29
+E10134,Mehmet,Demir,mehmet.demir@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10008,2023-01-11
+E10135,Lena,König,lena.koenig@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10007,2022-05-11
+E10136,Paul,Kaiser,paul.kaiser@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10006,2015-12-29
+E10137,Dominik,Meyer,dominik.meyer@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10004,2015-07-14
+E10138,Marco,Popović,marco.popović@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10007,2005-09-02
+E10139,Oliver,Mayer,oliver.mayer@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10004,2012-12-28
+E10140,Nina,Roth,nina.roth@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10004,2013-06-22
+E10141,Aylin,Schwarz,aylin.schwarz@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10005,2007-07-31
+E10142,Julia,Krause,julia.krause@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10010,2021-04-30
+E10143,Petra,Lorenz,petra.lorenz@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10012,2007-06-19
+E10144,Sebastian,Scholz,sebastian.scholz@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10011,2024-09-22
+E10145,Christian,Krüger,christian.krueger@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10009,2005-06-22
+E10146,Benjamin,Hoffmann,benjamin.hoffmann@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10013,2014-07-25
+E10147,Julia,Schmid,julia.schmid@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10005,2010-11-19
+E10148,Eva,Schäfer,eva.schaefer@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10008,2014-11-05
+E10149,Andreas,Walter,andreas.walter@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10005,2020-10-10
+E10150,Theresa,Baumann,theresa.baumann@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10005,2006-07-01
+E10151,Emma,Jung,emma.jung@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10009,2011-12-20
+E10152,Felix,Weber,felix.weber@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10008,2015-01-21
+E10153,Matthias,Meyer,matthias.meyer@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10004,2016-02-20
+E10154,Nikola,Kaya,nikola.kaya@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10011,2019-12-09
+E10155,Anna,König,anna.koenig@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10009,2008-02-12
+E10156,Uwe,Fuchs,uwe.fuchs@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10013,2017-07-15
+E10157,Nina,Berger,nina.berger@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10006,2022-08-04
+E10158,Mehmet,Popović,mehmet.popović@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10006,2014-11-29
+E10159,Katharina,Zimmermann,katharina.zimmermann@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10008,2009-05-22
+E10160,Nikola,Rossi,nikola.rossi@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10009,2025-12-12
+E10161,Anna,Schwarz,anna.schwarz@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10009,2024-09-24
+E10162,Alina,Rossi,alina.rossi@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10013,2026-02-05
+E10163,Alexander,Berger,alexander.berger@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10011,2007-04-28
+E10164,Elif,Schmitt,elif.schmitt@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10007,2017-06-28
+E10165,Miriam,Brenner,miriam.brenner@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10008,2023-01-05
+E10166,Matthias,Lehmann,matthias.lehmann@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10005,2006-11-15
+E10167,Birgit,Brenner,birgit.brenner@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10011,2005-01-03
+E10168,Alina,Nowak,alina.nowak@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10009,2016-03-12
+E10169,Ralf,Baumann,ralf.baumann@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10004,2012-11-22
+E10170,Claudia,Möller,claudia.moeller@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10010,2016-06-06
+E10171,Matthias,Schröder,matthias.schroeder@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10009,2023-07-15
+E10172,Laura,Werner,laura.werner@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10014,2007-09-03
+E10173,Monika,Klein,monika.klein@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10011,2015-10-27
+E10174,Sandra,Peters,sandra.peters@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10003,2019-03-28
+E10175,Katharina,Schulz,katharina.schulz@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10004,2022-11-29
+E10176,Eva,Meyer,eva.meyer@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10008,2010-03-03
+E10177,Stefan,Schulz,stefan.schulz@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10013,2008-02-27
+E10178,Sabine,Jung,sabine.jung@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10007,2017-05-21
+E10179,Markus,Berger,markus.berger@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10013,2021-02-22
+E10180,Ralf,Köhler,ralf.koehler@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10012,2021-12-02
+E10181,Stefan,Fischer,stefan.fischer@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10011,2006-09-25
+E10182,Claudia,Schulze,claudia.schulze@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10003,2025-12-30
+E10183,Elif,Popović,elif.popović@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10013,2008-02-16
+E10184,Christina,Winkler,christina.winkler@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10003,2011-01-29
+E10185,Stefan,Berger,stefan.berger@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10014,2010-02-28
+E10186,Florian,Lang,florian.lang@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10006,2026-03-25
+E10187,Mia,Fuchs,mia.fuchs@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10004,2013-12-11
+E10188,Carina,Frank,carina.frank@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10006,2007-01-17
+E10189,Miriam,Frank,miriam.frank@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10006,2006-04-20
+E10190,Thomas,Jung,thomas.jung@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10013,2018-07-05
+E10191,Petra,Albrecht,petra.albrecht@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10003,2013-12-10
+E10192,Tobias,Kowalski,tobias.kowalski@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10008,2020-02-02
+E10193,Sandra,Schröder,sandra.schroeder@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10005,2020-11-19
+E10194,Ivana,Schröder,ivana.schroeder@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10010,2016-09-22
+E10195,Luca,Scholz,luca.scholz@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10007,2020-08-21
+E10196,Alexander,Huber,alexander.huber@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10010,2013-10-23
+E10197,Anna,Mayer,anna.mayer@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10004,2019-03-01
+E10198,Mehmet,Günther,mehmet.guenther@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10014,2010-02-23
+E10199,Kevin,Huber,kevin.huber@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10003,2019-10-11
+E10200,Julia,Bauer,julia.bauer@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10008,2020-10-05
+E10201,Emma,Berger,emma.berger@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10009,2021-02-27
+E10202,Nikola,Weber,nikola.weber@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10004,2010-04-29
+E10203,Jonas,Koch,jonas.koch@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10009,2024-11-06
+E10204,Noah,Novak,noah.novak@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10004,2021-01-01
+E10205,Lukas,Braun,lukas.braun@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10003,2021-07-29
+E10206,Frank,Schwarz,frank.schwarz@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10014,2019-02-14
+E10207,Michael,Werner,michael.werner@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10010,2010-01-08
+E10208,Petra,Braun,petra.braun@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10006,2010-12-12
+E10209,Aylin,Bauer,aylin.bauer@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10006,2019-01-11
+E10210,Alexander,Fischer,alexander.fischer@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10004,2018-08-17
+E10211,Maximilian,Demir,maximilian.demir@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10011,2009-12-19
+E10212,Stefanie,Wolf,stefanie.wolf@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10012,2016-11-25
+E10213,Daniel,Fuchs,daniel.fuchs@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10003,2009-01-15
+E10214,Felix,Nowak,felix.nowak@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10003,2005-07-23
+E10215,Tobias,Koch,tobias.koch@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10008,2014-05-21
+E10216,Thomas,Hartmann,thomas.hartmann@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10013,2019-07-01
+E10217,Lena,Nowak,lena.nowak@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10006,2011-06-10
+E10218,Fatma,Roth,fatma.roth@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10013,2024-01-07
+E10219,Christian,Yılmaz,christian.yilmaz@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10007,2019-07-06
+E10220,Andrea,Günther,andrea.guenther@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10011,2025-06-22
+E10221,Lena,Neumann,lena.neumann@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10013,2013-04-21
+E10222,Carina,Baumann,carina.baumann@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10003,2021-06-15
+E10223,Petra,Werner,petra.werner@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10012,2012-06-13
+E10224,Paul,Scholz,paul.scholz@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10011,2019-01-17
+E10225,Sebastian,Köhler,sebastian.koehler@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10013,2011-02-22
+E10226,Jan,Haas,jan.haas@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10005,2014-01-27
+E10227,David,Lehmann,david.lehmann@hallberg.example,Instandhaltung,Werk Reutlingen,Leitung Instandhaltung,E10001,2013-02-03
+E10228,Elif,König,elif.koenig@hallberg.example,Instandhaltung,Werk Reutlingen,Teamleitung,E10227,2014-04-11
+E10229,Luca,Bauer,luca.bauer@hallberg.example,Instandhaltung,Werk Reutlingen,Teamleitung,E10227,2013-10-16
+E10230,Matthias,Möller,matthias.moeller@hallberg.example,Instandhaltung,Werk Reutlingen,Teamleitung,E10227,2016-06-16
+E10231,Elif,Ferrari,elif.ferrari@hallberg.example,Instandhaltung,Werk Reutlingen,Schichtführer:in,E10228,2006-09-02
+E10232,Fatma,Walter,fatma.walter@hallberg.example,Instandhaltung,Werk Reutlingen,Maschinenbediener:in,E10230,2013-02-28
+E10233,Kevin,Kowalski,kevin.kowalski@hallberg.example,Instandhaltung,Werk Reutlingen,Industriemechaniker:in,E10228,2025-06-11
+E10234,Luca,Becker,luca.becker@hallberg.example,Instandhaltung,Werk Reutlingen,Maschinenbediener:in,E10228,2016-11-19
+E10235,Tim,Walter,tim.walter@hallberg.example,Instandhaltung,Werk Reutlingen,Schichtführer:in,E10230,2020-02-24
+E10236,Paul,Schröder,paul.schroeder@hallberg.example,Instandhaltung,Werk Reutlingen,Schichtführer:in,E10229,2010-12-06
+E10237,Felix,Baumann,felix.baumann@hallberg.example,Instandhaltung,Werk Reutlingen,Maschinenbediener:in,E10228,2010-07-13
+E10238,Luca,Winkler,luca.winkler@hallberg.example,Instandhaltung ,Werk Reutlingen,Mechatroniker:in,E10228,2006-11-14
+E10239,Stefanie,Koch,stefanie.koch@hallberg.example,Instandhaltung,Werk Reutlingen,Mechatroniker:in,E10230,2008-11-27
+E10240,Emma,Neumann,emma.neumann@hallberg.example,Instandhaltung,Werk Reutlingen,Schichtführer:in,E10229,2023-08-15
+E10241,Noah,Schmid,noah.schmid@hallberg.example,Instandhaltung,Werk Reutlingen,Elektroniker:in,E10229,2009-12-03
+E10242,Jana,Hofmann,jana.hofmann@hallberg.example,Instandhaltung,Werk Reutlingen,Maschinenbediener:in,E10228,2024-05-14
+E10243,Sophie,Müller,sophie.mueller@hallberg.example,Instandhaltung,Werk Reutlingen,Maschinenbediener:in,E10228,2025-08-30
+E10244,Leon,Weber,leon.weber@hallberg.example,Instandhaltung,Werk Reutlingen,Schichtführer:in,E10229,2011-09-17
+E10245,Daniel,Klein,daniel.klein@hallberg.example,instandhaltung,Werk Reutlingen,Mechatroniker:in,E10229,2021-11-12
+E10246,Jan,Müller,jan.mueller@hallberg.example,Instandhaltung,Werk Reutlingen,Schichtführer:in,E10228,2010-03-25
+E10247,Julia,Seitz,julia.seitz@hallberg.example,Instandhaltung,Werk Reutlingen,Maschinenbediener:in,E10230,2023-10-23
+E10248,Hannah,Walter,hannah.walter@hallberg.example,Instandhaltung,Werk Reutlingen,Maschinenbediener:in,E10230,2023-07-17
+E10249,Tim,Haas,tim.haas@hallberg.example,Instandhaltung,Werk Reutlingen,Fachkraft für Lagerlogistik,E10230,2021-10-29
+E10250,Kevin,Schäfer,kevin.schaefer@hallberg.example,Instandhaltung,Werk Reutlingen,Schichtführer:in,E10230,2008-08-14
+E10251,Lea,Klein,lea.klein@hallberg.example,Instandhaltung,Werk Reutlingen,Maschinenbediener:in,E10230,2024-01-12
+E10252,Dominik,Vogel,dominik.vogel@hallberg.example,Instandhaltung,Werk Reutlingen,Maschinenbediener:in,E10228,2019-07-13
+E10253,Marie,Fischer,marie.fischer@hallberg.example,Instandhaltung,Werk Reutlingen,Schichtführer:in,E10229,2021-05-18
+E10254,Jürgen,Keller,juergen.keller@hallberg.example,Instandhaltung,Werk Reutlingen,Industriemechaniker:in,E10228,2013-10-01
+E10255,Julia,Novak,julia.novak@hallberg.example,Instandhaltung,Werk Reutlingen,Elektroniker:in,E10230,2008-10-02
+E10256,Uwe,Berger,uwe.berger@hallberg.example,Instandhaltung,Werk Reutlingen,Mechatroniker:in,E10228,2012-10-13
+E10257,Benjamin,Meier,benjamin.meier@hallberg.example,Instandhaltung,Werk Reutlingen,Schichtführer:in,E10228,2016-10-08
+E10258,Jonas,Mayer,jonas.mayer@hallberg.example,Instandhaltung,Werk Reutlingen,Schichtführer:in,E10230,2011-12-08
+E10259,Sandra,Schneider,sandra.schneider@hallberg.example,Instandhaltung,Werk Reutlingen,Schichtführer:in,E10230,2007-11-10
+E10260,Noah,Lorenz,noah.lorenz@hallberg.example,Instandhaltung,Werk Reutlingen,Schichtführer:in,E10229,2020-03-22
+E10261,Tim,Hartmann,tim.hartmann@hallberg.example,Instandhaltung,Werk Reutlingen,Industriemechaniker:in,E10229,2011-04-13
+E10262,Melanie,Wagner,melanie.wagner@hallberg.example,Instandhaltung,Werk Reutlingen,Industriemechaniker:in,E10228,2021-09-28
+E10263,Maximilian,Fischer,maximilian.fischer@hallberg.example,Instandhaltung,Werk Reutlingen,Mechatroniker:in,E10229,2013-01-02
+E10264,Matthias,Huber,matthias.huber@hallberg.example,Instandhaltung,Werk Reutlingen,Schichtführer:in,E10229,2025-12-09
+E10265,David,Mayer,david.mayer@hallberg.example,Instandhaltung,Werk Reutlingen,Industriemechaniker:in,E10228,2014-11-07
+E10266,Andrea,Schröder,andrea.schroeder@hallberg.example,Instandhaltung,Werk Reutlingen,Maschinenbediener:in,E10230,2013-02-23
+E10267,Florian,Yılmaz,florian.yilmaz@hallberg.example,Instandhaltung,Werk Reutlingen,Elektroniker:in,E10228,2013-03-19
+E10268,Sebastian,Seitz,sebastian.seitz@hallberg.example,Instandhaltung,Werk Reutlingen,Mechatroniker:in,E10230,2008-08-29
+E10269,Lea,Popović,lea.popović@hallberg.example,Instandhaltung,Werk Reutlingen,Schichtführer:in,E10228,2022-07-05
+E10270,Lea,Köhler,lea.koehler@hallberg.example,Instandhaltung,Werk Reutlingen,Fachkraft für Lagerlogistik,E10228,2005-04-28
+E10271,Claudia,Werner,claudia.werner@hallberg.example,Instandhaltung,Werk Reutlingen,Schichtführer:in,E10229,2026-03-20
+E10272,Jan,Walter,jan.walter@hallberg.example,Instandhaltung,Werk Reutlingen,Mechatroniker:in,E10228,2008-09-07
+E10273,Andreas,Wagner,andreas.wagner@hallberg.example,Instandhaltung,Werk Reutlingen,Fachkraft für Lagerlogistik,E10228,2011-09-10
+E10274,Petra,Maier,petra.maier@hallberg.example,Instandhaltung,Werk Reutlingen,Industriemechaniker:in,E10228,2011-05-12
+E10275,Stefan,Fuchs,stefan.fuchs@hallberg.example,Instandhaltung,Werk Reutlingen,Schichtführer:in,E10228,2013-10-05
+E10276,Elif,Kaya,elif.kaya@hallberg.example,Instandhaltung,Werk Reutlingen,Elektroniker:in,E10230,2008-02-17
+E10277,Kevin,Schmitt,kevin.schmitt@hallberg.example,Instandhaltung,Werk Reutlingen,Maschinenbediener:in,E10230,2024-10-24
+E10278,Benjamin,Nowak,benjamin.nowak@hallberg.example,Instandhaltung,Werk Reutlingen,Schichtführer:in,E10230,2006-10-15
+E10279,Sabine,Wagner,sabine.wagner@hallberg.example,Instandhaltung,Werk Reutlingen,Schichtführer:in,E10230,2019-06-13
+E10280,Fatma,Demir,fatma.demir@hallberg.example,Instandhaltung,Werk Reutlingen,Schichtführer:in,E10229,2012-01-29
+E10281,Jürgen,Kaiser,juergen.kaiser@hallberg.example,Instandhaltung,Werk Reutlingen,Mechatroniker:in,E10228,2023-10-05
+E10282,Stefanie,Winkler,stefanie.winkler@hallberg.example,Instandhaltung,Werk Reutlingen,Elektroniker:in,E10229,2010-01-16
+E10283,Andrea,Hofmann,andrea.hofmann@hallberg.example,Instandhaltung,Werk Reutlingen,Fachkraft für Lagerlogistik,E10229,2013-02-25
+E10284,Daniel,Novak,daniel.novak@hallberg.example,Instandhaltung,Werk Reutlingen,Mechatroniker:in,E10228,2013-08-17
+E10285,Christian,Zimmermann,christian.zimmermann@hallberg.example,Instandhaltung,Werk Reutlingen,Maschinenbediener:in,E10228,2017-09-28
+E10286,Dominik,Winkler,dominik.winkler@hallberg.example,Instandhaltung,Werk Reutlingen,Schichtführer:in,E10229,2016-06-09
+E10287,Monika,Seitz,monika.seitz@hallberg.example,Instandhaltung,Werk Reutlingen,Industriemechaniker:in,E10228,2010-06-19
+E10288,Eva,Brenner,eva.brenner@hallberg.example,Instandhaltung,Werk Reutlingen,Elektroniker:in,E10229,2016-06-03
+E10289,Emre,Müller,emre.mueller@hallberg.example,Logistik,Werk Reutlingen,Leitung Logistik,E10001,2015-04-28
+E10290,Katharina,Ivanov,katharina.ivanov@hallberg.example,Logistik,Werk Reutlingen,Teamleitung,E10289,2012-03-22
+E10291,Jana,Kaiser,jana.kaiser@hallberg.example,Logistik,Werk Reutlingen,Teamleitung,E10289,2010-03-14
+E10292,Lena,Kowalski,lena.kowalski@hallberg.example,Logistik,Werk Reutlingen,Teamleitung,E10289,2013-12-20
+E10293,Alexander,Albrecht,alexander.albrecht@hallberg.example,Logistik,Werk Reutlingen,Teamleitung,E10289,2018-08-18
+E10294,Felix,Seitz,felix.seitz@hallberg.example,Logistik,Werk Reutlingen,Teamleitung,E10289,2013-10-12
+E10295,Melanie,König,melanie.koenig@hallberg.example,Logistik,Werk Reutlingen,Maschinenbediener:in,E10290,2017-01-31
+E10296,Monika,Hartmann,monika.hartmann@hallberg.example,Logistik,Werk Reutlingen,Elektroniker:in,E10290,2014-04-23
+E10297,Andreas,Becker,andreas.becker@hallberg.example,Logistik,Werk Reutlingen,Mechatroniker:in,E10292,2007-01-24
+E10298,Eva,Novak,eva.novak@hallberg.example,Logistik,Werk Reutlingen,Schichtführer:in,E10291,2008-01-18
+E10299,Mehmet,Jung,mehmet.jung@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10290,2025-04-20
+E10300,Noah,Günther,noah.guenther@hallberg.example,Logistik,Werk Reutlingen,Maschinenbediener:in,E10292,2014-01-05
+E10301,Petra,Schneider,petra.schneider@hallberg.example,Logistik,Werk Reutlingen,Mechatroniker:in,E10292,2020-10-15
+E10302,Aylin,König,aylin.koenig@hallberg.example,Logistik,Werk Reutlingen,Industriemechaniker:in,E10290,2015-02-28
+E10303,Sven,Schäfer,sven.schaefer@hallberg.example,Logistik,Werk Reutlingen,Mechatroniker:in,E10292,2015-04-06
+E10304,Lisa,Zimmermann,lisa.zimmermann@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10290,2014-02-05
+E10305,Lena,Haas,lena.haas@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10290,2025-05-20
+E10306,Frank,Roth,frank.roth@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10293,2005-02-24
+E10307,Julia,Braun,julia.braun@hallberg.example,Logistik,Werk Reutlingen,Maschinenbediener:in,E10291,2025-02-28
+E10308,Monika,Lehmann,monika.lehmann@hallberg.example,Logistik,Werk Reutlingen,Elektroniker:in,E10291,2016-07-28
+E10309,David,Lang,david.lang@hallberg.example,Logistik,Werk Reutlingen,Elektroniker:in,E10293,2017-06-09
+E10310,David,Schröder,david.schroeder@hallberg.example,Logistik,Werk Reutlingen,Schichtführer:in,E10291,2012-02-24
+E10311,Uwe,Klein,uwe.klein@hallberg.example,Logistik,Werk Reutlingen,Maschinenbediener:in,E10293,2022-05-31
+E10312,Tim,Hahn,tim.hahn@hallberg.example,Logistik,Werk Reutlingen,Elektroniker:in,E10292,2010-10-19
+E10313,Monika,Meyer,monika.meyer@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10294,2009-07-25
+E10314,Lena,Lange,lena.lange@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10291,2009-10-07
+E10315,Alexander,Köhler,alexander.koehler@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10293,2020-04-21
+E10316,Ivana,Becker,ivana.becker@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10294,2021-03-21
+E10317,Florian,Keller,florian.keller@hallberg.example,Logistik,Werk Reutlingen,Elektroniker:in,E10292,2018-12-30
+E10318,Lukas,Hartmann,lukas.hartmann@hallberg.example,Logistik,Werk Reutlingen,Schichtführer:in,E10290,2014-11-02
+E10319,Miriam,Walter,miriam.walter@hallberg.example,Logistik,Werk Reutlingen,Mechatroniker:in,E10294,2026-03-14
+E10320,Emre,Schmidt,emre.schmidt@hallberg.example,Logistik,Werk Reutlingen,Elektroniker:in,E10291,2006-07-13
+E10321,Philipp,Möller,philipp.moeller@hallberg.example,Logistik,Werk Reutlingen,Schichtführer:in,E10290,2020-05-05
+E10322,Lea,Weber,lea.weber@hallberg.example,Logistik,Werk Reutlingen,Industriemechaniker:in,E10292,2008-04-21
+E10323,Thomas,Schäfer,thomas.schaefer@hallberg.example,Logistik,Werk Reutlingen,Elektroniker:in,E10290,2022-05-14
+E10324,Aylin,Haas,aylin.haas@hallberg.example,Logistik,Werk Reutlingen,Schichtführer:in,E10290,2023-04-20
+E10325,Paul,Maier,paul.maier@hallberg.example,Logistik,Werk Reutlingen,Schichtführer:in,E10294,2011-12-08
+E10326,Stefanie,Krause,stefanie.krause@hallberg.example,Logistik,Werk Reutlingen,Mechatroniker:in,E10293,2016-02-09
+E10327,Matthias,Friedrich,matthias.friedrich@hallberg.example,Logistik,Werk Reutlingen,Maschinenbediener:in,E10292,2007-09-08
+E10328,Maximilian,Köhler,maximilian.koehler@hallberg.example,Logistik,Werk Reutlingen,Mechatroniker:in,E10292,2006-08-23
+E10329,Anna,Popović,anna.popović@hallberg.example,Logistik,Werk Reutlingen,Schichtführer:in,E10290,2005-04-20
+E10330,Philipp,Vogel,philipp.vogel@hallberg.example,Logistik,Werk Reutlingen,Industriemechaniker:in,E10290,2009-11-29
+E10331,Matthias,Berger,matthias.berger@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10294,2013-03-25
+E10332,Patrick,Schulze,patrick.schulze@hallberg.example,Logistik,Werk Reutlingen,Maschinenbediener:in,E10292,2020-03-12
+E10333,Michael,Becker,michael.becker@hallberg.example,Logistik,Werk Reutlingen,Mechatroniker:in,E10292,2014-02-11
+E10334,Marie,Albrecht,marie.albrecht@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10294,2011-08-12
+E10335,Sven,Krüger,sven.krueger@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10290,2017-06-15
+E10336,Markus,Schröder,markus.schroeder@hallberg.example,Logistik,Werk Reutlingen,Schichtführer:in,E10290,2023-07-27
+E10337,Jana,Frank,jana.frank@hallberg.example,Logistik,Werk Reutlingen,Schichtführer:in,E10293,2016-11-30
+E10338,Stefanie,Köhler,stefanie.koehler@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10294,2005-01-21
+E10339,Dominik,Popović,dominik.popović@hallberg.example,Logistik,Werk Reutlingen,Maschinenbediener:in,E10294,2016-10-24
+E10340,Michael,Weiß,michael.weiss@hallberg.example,Logistik,Werk Reutlingen,Maschinenbediener:in,E10293,2020-09-06
+E10341,Christian,Demir,christian.demir@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10291,2017-05-28
+E10342,Fatma,Lang,fatma.lang@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10291,2014-12-03
+E10343,Simon,Rossi,simon.rossi@hallberg.example,Logistik,Werk Reutlingen,Industriemechaniker:in,E10293,2016-01-07
+E10344,Jonas,Krüger,jonas.krueger@hallberg.example,Logistik,Werk Reutlingen,Elektroniker:in,E10291,2025-07-08
+E10345,Emre,Jung,emre.jung@hallberg.example,Logistik,Werk Reutlingen,Schichtführer:in,E10292,2009-10-01
+E10346,Aylin,Ferrari,aylin.ferrari@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10294,2024-06-08
+E10347,Carina,Jung,carina.jung@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10293,2023-04-19
+E10348,Miriam,Weber,miriam.weber@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10294,2017-10-24
+E10349,Ralf,Lange,ralf.lange@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10292,2016-10-20
+E10350,Thomas,Lehmann,thomas.lehmann@hallberg.example,Logistik,Werk Reutlingen,Industriemechaniker:in,E10290,2024-08-07
+E10351,Philipp,Schulze,philipp.schulze@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10290,2006-01-13
+E10352,Nina,Demir,nina.demir@hallberg.example,Logistik,Werk Reutlingen,Mechatroniker:in,E10290,2010-11-18
+E10353,Sebastian,Fuchs,sebastian.fuchs@hallberg.example,Logistik,Werk Reutlingen,Mechatroniker:in,E10290,2020-12-30
+E10354,Jana,Lange,jana.lange@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10290,2009-10-31
+E10355,Sven,Müller,sven.mueller@hallberg.example,Logistik,Werk Reutlingen,Industriemechaniker:in,E10291,2023-04-05
+E10356,Alexander,Neumann,alexander.neumann@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10292,2012-02-25
+E10357,Dimitri,Kowalski,dimitri.kowalski@hallberg.example,Logistik,Werk Reutlingen,Industriemechaniker:in,E10292,2010-02-09
+E10358,Patrick,Albrecht,patrick.albrecht@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10292,2006-02-24
+E10359,Jürgen,Friedrich,juergen.friedrich@hallberg.example,Logistik,Werk Reutlingen,Schichtführer:in,E10294,2022-10-08
+E10360,Birgit,Ivanov,birgit.ivanov@hallberg.example,Logistik,Werk Reutlingen,Schichtführer:in,E10290,2013-09-30
+E10361,Hannah,Müller,hannah.mueller@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10291,2011-06-05
+E10362,Alina,Schröder,alina.schroeder@hallberg.example,Logistik,Werk Reutlingen,Schichtführer:in,E10290,2015-10-05
+E10363,Ivana,Baumann,ivana.baumann@hallberg.example,Logistik,Werk Reutlingen,Schichtführer:in,E10291,2020-06-03
+E10364,Birgit,Klein,birgit.klein@hallberg.example,Logistik,Werk Reutlingen,Schichtführer:in,E10292,2018-01-23
+E10365,Natalia,Schulz,natalia.schulz@hallberg.example,Logistik,Werk Reutlingen,Elektroniker:in,E10294,2009-05-09
+E10366,Lea,Schmitz,lea.schmitz@hallberg.example,Logistik,Werk Reutlingen,Industriemechaniker:in,E10290,2017-09-30
+E10367,Nina,Schmitz,nina.schmitz@hallberg.example,Logistik,Werk Reutlingen,Maschinenbediener:in,E10291,2023-12-10
+E10368,Benjamin,Wagner,benjamin.wagner@hallberg.example,Logistik,Werk Reutlingen,Maschinenbediener:in,E10294,2005-10-04
+E10369,Sven,Schmitt,sven.schmitt@hallberg.example,Logistik,Werk Reutlingen,Maschinenbediener:in,E10290,2007-10-06
+E10370,Sandra,Klein,sandra.klein@hallberg.example,Logistik,Werk Reutlingen,Industriemechaniker:in,E10291,2012-01-10
+E10371,Noah,Bauer,noah.bauer@hallberg.example,Logistik,Werk Reutlingen,Schichtführer:in,E10292,2013-02-12
+E10372,Stefan,Keller,stefan.keller@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10290,2025-07-01
+E10373,Maximilian,König,maximilian.koenig@hallberg.example,Logistik,Werk Reutlingen,Schichtführer:in,E10291,2008-06-16
+E10374,Sandra,Lang,sandra.lang@hallberg.example,Logistik,Werk Reutlingen,Maschinenbediener:in,E10294,2023-11-12
+E10375,David,Friedrich,david.friedrich@hallberg.example,Logistik,Werk Reutlingen,Maschinenbediener:in,E10292,2006-09-24
+E10376,Michael,Demir,michael.demir@hallberg.example,Logistik,Werk Reutlingen,Industriemechaniker:in,E10293,2005-12-14
+E10377,Sophie,Schulz,sophie.schulz@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10290,2015-03-20
+E10378,Lea,König,lea.koenig@hallberg.example,Logistik,Werk Reutlingen,Maschinenbediener:in,E10293,2010-04-24
+E10379,Patrick,Ferrari,patrick.ferrari@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10294,2013-03-15
+E10380,Birgit,Hartmann,birgit.hartmann@hallberg.example,Logistik,Werk Reutlingen,Maschinenbediener:in,E10291,2023-01-23
+E10381,Michael,Frank,michael.frank@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Leitung Forschung & Entwicklung,E10001,2015-12-16
+E10382,Andreas,Vogel,andreas.vogel@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Teamleitung,E10381,2020-02-03
+E10383,Petra,Demir,petra.demir@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Teamleitung,E10381,2018-12-22
+E10384,Felix,König,felix.koenig@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Teamleitung,E10381,2022-05-19
+E10385,Emre,Graf,emre.graf@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Teamleitung,E10381,2015-10-14
+E10386,Lukas,Brenner,lukas.brenner@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Teamleitung,E10381,2010-07-14
+E10387,Ralf,Schmidt,ralf.schmidt@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Qualitätsprüfer:in,E10386,2021-04-29
+E10388,Maximilian,Werner,maximilian.werner@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Qualitätsprüfer:in,E10384,2011-11-23
+E10389,Sophie,Wagner,sophie.wagner@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Konstrukteur:in,E10386,2014-05-07
+E10390,Emma,Krause,emma.krause@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Konstrukteur:in,E10386,2009-04-28
+E10391,Benjamin,Schmidt,benjamin.schmidt@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Entwicklungsingenieur:in,E10383,2016-10-28
+E10392,Natalia,Schmitz,natalia.schmitz@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Qualitätsprüfer:in,E10385,2007-03-10
+E10393,Stefanie,Bauer,stefanie.bauer@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Qualitätsprüfer:in,E10384,2012-11-27
+E10394,Frank,Scholz,frank.scholz@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Entwicklungsingenieur:in,E10384,2005-05-26
+E10395,Miriam,Schneider,miriam.schneider@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Entwicklungsingenieur:in,E10386,2021-06-10
+E10396,David,Braun,david.braun@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Techniker:in,E10385,2014-08-21
+E10397,Lena,Schulz,lena.schulz@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Projektingenieur:in,E10384,2011-06-28
+E10398,Ivana,Ivanov,ivana.ivanov@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Konstrukteur:in,E10385,2024-08-11
+E10399,Nina,Klein,nina.klein@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Entwicklungsingenieur:in,E10383,2014-10-22
+E10400,Hannah,Braun,hannah.braun@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Entwicklungsingenieur:in,E10386,2007-12-05
+E10401,Stefan,Jung,stefan.jung@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Projektingenieur:in,E10385,2020-02-28
+E10402,Noah,Beck,noah.beck@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Entwicklungsingenieur:in,E10383,2023-05-25
+E10403,Anna,Zimmermann,anna.zimmermann@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Qualitätsprüfer:in,E10386,2019-02-02
+E10404,Leon,Wagner,leon.wagner@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Entwicklungsingenieur:in,E10383,2010-01-31
+E10405,Sophie,Jung,sophie.jung@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Projektingenieur:in,E10383,2010-05-22
+E10406,Claudia,Maier,claudia.maier@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Entwicklungsingenieur:in,E10384,2015-09-26
+E10407,Emre,Roth,emre.roth@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Konstrukteur:in,E10382,2016-12-01
+E10408,Emma,Nowak,emma.nowak@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Qualitätsprüfer:in,E10383,2008-05-27
+E10409,Natalia,Meyer,natalia.meyer@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Qualitätsprüfer:in,E10382,2008-02-15
+E10410,Laura,Hofmann,laura.hofmann@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Projektingenieur:in,E10383,2011-03-10
+E10411,Daniel,Schäfer,daniel.schaefer@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Entwicklungsingenieur:in,E10385,2022-01-10
+E10412,Jana,Hartmann,jana.hartmann@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Projektingenieur:in,E10385,2010-12-02
+E10413,Christina,Lehmann,christina.lehmann@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Qualitätsprüfer:in,E10386,2011-05-24
+E10414,Ivana,Beck,ivana.beck@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Entwicklungsingenieur:in,E10385,2015-01-21
+E10415,Markus,Köhler,markus.koehler@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Techniker:in,E10382,2019-06-15
+E10416,Ralf,Ivanov,ralf.ivanov@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Projektingenieur:in,E10385,2025-01-12
+E10417,Elif,Frank,elif.frank@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Projektingenieur:in,E10385,2005-05-07
+E10418,Katharina,Vogel,katharina.vogel@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Projektingenieur:in,E10382,2009-07-02
+E10419,Patrick,Schmitz,patrick.schmitz@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Techniker:in,E10384,2018-12-21
+E10420,Jana,Schmitt,jana.schmitt@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Entwicklungsingenieur:in,E10385,2012-09-04
+E10421,Julia,Walter,julia.walter@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Konstrukteur:in,E10382,2020-08-14
+E10422,Melanie,Baumann,melanie.baumann@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Techniker:in,E10384,2024-02-25
+E10423,Maximilian,Winkler,maximilian.winkler@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Projektingenieur:in,E10382,2021-11-16
+E10424,Andrea,Novak,andrea.novak@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Entwicklungsingenieur:in,E10382,2018-11-26
+E10425,Marco,Vogel,marco.vogel@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Qualitätsprüfer:in,E10383,2025-11-11
+E10426,Natalia,Herrmann,natalia.herrmann@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Konstrukteur:in,E10384,2021-03-14
+E10427,Johanna,Schmitz,johanna.schmitz@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Qualitätsprüfer:in,E10385,2012-10-19
+E10428,Theresa,Beck,theresa.beck@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Techniker:in,E10382,2011-05-20
+E10429,Markus,Werner,markus.werner@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Techniker:in,E10384,2008-07-10
+E10430,Kevin,Kaiser,kevin.kaiser@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Qualitätsprüfer:in,E10382,2007-06-01
+E10431,Sabine,Koch,sabine.koch@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Projektingenieur:in,E10385,2021-05-12
+E10432,Dimitri,Fischer,dimitri.fischer@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Konstrukteur:in,E10383,2024-06-12
+E10433,Julia,Rossi,julia.rossi@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Techniker:in,E10386,2025-04-03
+E10434,Petra,Lange,petra.lange@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Entwicklungsingenieur:in,E10384,2006-06-02
+E10435,Andreas,Schmitt,andreas.schmitt@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Projektingenieur:in,E10384,2019-03-03
+E10436,Thomas,Kaiser,thomas.kaiser@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Projektingenieur:in,E10383,2022-11-17
+E10437,Anna,Günther,anna.guenther@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Konstrukteur:in,E10383,2025-04-15
+E10438,Katharina,Schneider,katharina.schneider@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Projektingenieur:in,E10383,2009-07-13
+E10439,Emma,Hahn,emma.hahn@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Qualitätsprüfer:in,E10382,2012-07-12
+E10440,Jan,Hofmann,jan.hofmann@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Projektingenieur:in,E10386,2018-12-18
+E10441,Lisa,Lang,lisa.lang@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Projektingenieur:in,E10386,2015-04-13
+E10442,Patrick,Herrmann,patrick.herrmann@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Qualitätsprüfer:in,E10383,2015-12-13
+E10443,Sebastian,Schneider,sebastian.schneider@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Techniker:in,E10384,2020-01-20
+E10444,David,Müller,david.mueller@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Techniker:in,E10385,2024-11-13
+E10445,Alexander,Popović,alexander.popović@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Qualitätsprüfer:in,E10383,2012-05-28
+E10446,Uwe,Hahn,uwe.hahn@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Entwicklungsingenieur:in,E10382,2007-05-16
+E10447,Felix,Demir,felix.demir@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Entwicklungsingenieur:in,E10384,2014-11-06
+E10448,Mehmet,Wagner,mehmet.wagner@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Konstrukteur:in,E10382,2018-05-08
+E10449,Lena,Weber,lena.weber@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Techniker:in,E10384,2025-05-22
+E10450,Carina,Lange,carina.lange@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Entwicklungsingenieur:in,E10383,2019-06-04
+E10451,Petra,Bauer,petra.bauer@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Projektingenieur:in,E10384,2023-09-02
+E10452,Katharina,Hartmann,katharina.hartmann@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Konstrukteur:in,E10382,2010-06-07
+E10453,Claudia,König,claudia.koenig@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Techniker:in,E10383,2011-10-13
+E10454,Andreas,Friedrich,andreas.friedrich@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Entwicklungsingenieur:in,E10384,2016-05-19
+E10455,Noah,Popović,noah.popović@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Qualitätsprüfer:in,E10382,2015-06-28
+E10456,Birgit,Demir,birgit.demir@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Qualitätsprüfer:in,E10382,2018-01-01
+E10457,Luca,Roth,luca.roth@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Konstrukteur:in,E10384,2025-06-05
+E10458,Ivana,Werner,ivana.werner@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Projektingenieur:in,E10386,2018-02-02
+E10459,Melanie,Schneider,melanie.schneider@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Konstrukteur:in,E10383,2025-01-28
+E10460,Alexander,Krause,alexander.krause@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Konstrukteur:in,E10384,2013-10-05
+E10461,Elif,Baumann,elif.baumann@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Projektingenieur:in,E10386,2013-06-27
+E10462,Alina,Demir,alina.demir@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Entwicklungsingenieur:in,E10382,2005-08-08
+E10463,Sven,Schröder,sven.schroeder@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Techniker:in,E10384,2006-02-03
+E10464,Petra,Möller,petra.moeller@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Qualitätsprüfer:in,E10383,2020-10-16
+E10465,Oliver,Hahn,oliver.hahn@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Qualitätsprüfer:in,E10384,2011-03-30
+E10466,Mehmet,Yılmaz,mehmet.yilmaz@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Entwicklungsingenieur:in,E10382,2020-03-23
+E10467,Emma,Lehmann,emma.lehmann@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Techniker:in,E10383,2006-10-09
+E10468,Anna,Herrmann,anna.herrmann@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Qualitätsprüfer:in,E10384,2005-07-30
+E10469,Birgit,Herrmann,birgit.herrmann@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Techniker:in,E10382,2021-09-08
+E10470,Matthias,Braun,matthias.braun@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Projektingenieur:in,E10385,2017-10-27
+E10471,Laura,Braun,laura.braun@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Leitung Qualitätsmanagement,E10001,2017-12-17
+E10472,Christian,Lehmann,christian.lehmann@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Teamleitung,E10471,2012-04-23
+E10473,Mehmet,Walter,mehmet.walter@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Teamleitung,E10471,2012-01-28
+E10474,Katharina,Seitz,katharina.seitz@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Techniker:in,E10472,2010-08-07
+E10475,Markus,Keller,markus.keller@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Entwicklungsingenieur:in,E10473,2012-08-30
+E10476,Katharina,Scholz,katharina.scholz@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Qualitätsprüfer:in,E10473,2016-06-02
+E10477,Daniel,Walter,daniel.walter@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Entwicklungsingenieur:in,E10472,2016-06-15
+E10478,Stefan,Rossi,stefan.rossi@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Techniker:in,E10472,2012-01-10
+E10479,Carina,Schmitt,carina.schmitt@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Qualitätsprüfer:in,E10473,2011-09-14
+E10480,Luca,Ivanov,luca.ivanov@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Konstrukteur:in,E10473,2021-06-30
+E10481,Jonas,Maier,jonas.maier@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Qualitätsprüfer:in,E10472,2015-01-07
+E10482,Andrea,Popović,andrea.popović@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Qualitätsprüfer:in,E10472,2010-12-17
+E10483,Alexander,Brenner,alexander.brenner@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Qualitätsprüfer:in,E10473,2016-10-06
+E10484,Birgit,Yılmaz,birgit.yilmaz@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Techniker:in,E10473,2024-07-29
+E10485,Alina,Graf,alina.graf@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Qualitätsprüfer:in,E10473,2015-03-08
+E10486,Sebastian,Peters,sebastian.peters@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Qualitätsprüfer:in,E10472,2019-11-20
+E10487,Uwe,Neumann,uwe.neumann@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Projektingenieur:in,E10473,2025-05-19
+E10488,Alina,Ludwig,alina.ludwig@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Projektingenieur:in,E10473,2010-09-25
+E10489,Sophie,Seitz,sophie.seitz@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Techniker:in,E10472,2011-01-25
+E10490,Markus,Haas,markus.haas@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Konstrukteur:in,E10472,2019-11-25
+E10491,Paul,Beck,paul.beck@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Qualitätsprüfer:in,E10473,2024-08-12
+E10492,Sabine,Brenner,sabine.brenner@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Projektingenieur:in,E10473,2019-04-17
+E10493,Monika,Fuchs,monika.fuchs@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Projektingenieur:in,E10472,2013-01-24
+E10494,Jürgen,Klein,juergen.klein@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Techniker:in,E10473,2009-08-30
+E10495,Johanna,Meier,johanna.meier@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Entwicklungsingenieur:in,E10472,2016-07-06
+E10496,Oliver,Hartmann,oliver.hartmann@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Entwicklungsingenieur:in,E10472,2005-03-07
+E10497,Philipp,Mayer,philipp.mayer@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Konstrukteur:in,E10472,2010-06-18
+E10498,Andrea,Schmidt,andrea.schmidt@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Konstrukteur:in,E10472,2020-10-31
+E10499,Mehmet,Nowak,mehmet.nowak@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Projektingenieur:in,E10473,2013-04-14
+E10500,Claudia,Walter,claudia.walter@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Entwicklungsingenieur:in,E10473,2011-10-30
+E10501,Marie,Ivanov,marie.ivanov@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Techniker:in,E10472,2012-03-26
+E10502,Leon,Müller,leon.mueller@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Projektingenieur:in,E10472,2006-03-09
+E10503,Laura,Krüger,laura.krueger@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Entwicklungsingenieur:in,E10472,2024-10-03
+E10504,Jürgen,Baumann,juergen.baumann@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Konstrukteur:in,E10473,2016-08-16
+E10505,Sven,Lehmann,sven.lehmann@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Techniker:in,E10472,2020-02-03
+E10506,Marie,Schulze,marie.schulze@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Techniker:in,E10473,2018-08-28
+E10507,Anna,Walter,anna.walter@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Projektingenieur:in,E10473,2014-07-10
+E10508,Jonas,Novak,jonas.novak@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Qualitätsprüfer:in,E10473,2024-09-18
+E10509,Birgit,Schulz,birgit.schulz@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Qualitätsprüfer:in,E10473,2014-03-28
+E10510,Lukas,Hahn,lukas.hahn@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Projektingenieur:in,E10472,2009-04-21
+E10511,Lea,Müller,lea.mueller@hallberg.example,Vertrieb,Zentrale Tübingen,Leitung Vertrieb,E10001,2008-05-22
+E10512,Frank,Winkler,frank.winkler@hallberg.example,Vertrieb,Zentrale Tübingen,Teamleitung,E10511,2018-10-03
+E10513,Marie,Herrmann,marie.herrmann@hallberg.example,Vertrieb,Zentrale Tübingen,Teamleitung,E10511,2019-12-02
+E10514,Fatma,Fuchs,fatma.fuchs@hallberg.example,Vertrieb,Zentrale Tübingen,Teamleitung,E10511,2021-07-20
+E10515,Aylin,Köhler,aylin.koehler@hallberg.example,Vertrieb,Zentrale Tübingen,Teamleitung,E10511,2015-02-06
+E10516,Dominik,Neumann,dominik.neumann@hallberg.example,Vertrieb,Zentrale Tübingen,Referent:in,E10512,2012-02-18
+E10517,Alexander,Lang,alexander.lang@hallberg.example,Vertrieb,Zentrale Tübingen,Analyst:in,E10515,2025-10-26
+E10518,Petra,Hofmann,petra.hofmann@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10513,2013-04-07
+E10519,Alina,Schulze,alina.schulze@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10514,2010-06-08
+E10520,Monika,Schulze,monika.schulze@hallberg.example,Vertrieb,Zentrale Tübingen,Key Account Manager:in,E10512,2010-11-23
+E10521,Leon,Richter,leon.richter@hallberg.example,Vertrieb,Zentrale Tübingen,Analyst:in,E10515,2020-07-06
+E10522,Andrea,Fuchs,andrea.fuchs@hallberg.example,Vertrieb,Zentrale Tübingen,Sachbearbeiter:in,E10515,2017-06-15
+E10523,Aylin,Popović,aylin.popović@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10512,2023-06-04
+E10524,Frank,Nowak,frank.nowak@hallberg.example,Vertrieb,Zentrale Tübingen,Spezialist:in,E10515,2018-07-27
+E10525,Thomas,Lorenz,thomas.lorenz@hallberg.example,Vertrieb,Zentrale Tübingen,Referent:in,E10513,2018-09-19
+E10526,Theresa,Ivanov,theresa.ivanov@hallberg.example,Vertrieb,Zentrale Tübingen,Sachbearbeiter:in,E10513,2013-09-27
+E10527,Eva,Kaiser,eva.kaiser@hallberg.example,Vertrieb,Zentrale Tübingen,Key Account Manager:in,E10513,2009-06-08
+E10528,Andreas,Bauer,andreas.bauer@hallberg.example,Vertrieb,Zentrale Tübingen,Key Account Manager:in,E10515,2011-03-11
+E10529,Lisa,Krause,lisa.krause@hallberg.example,Vertrieb,Zentrale Tübingen,Spezialist:in,E10512,2008-11-05
+E10530,Ivana,Haas,ivana.haas@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10515,2023-04-12
+E10531,Frank,Yılmaz,frank.yilmaz@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10512,2005-12-02
+E10532,Benjamin,Schulze,benjamin.schulze@hallberg.example,Vertrieb,Zentrale Tübingen,Spezialist:in,E10512,2025-08-15
+E10533,Lena,Schmitt,lena.schmitt@hallberg.example,Vertrieb,Zentrale Tübingen,Spezialist:in,E10513,2018-06-05
+E10534,Jana,Lorenz,jana.lorenz@hallberg.example,Vertrieb,Zentrale Tübingen,Sachbearbeiter:in,E10513,2012-11-30
+E10535,Ivana,Popović,ivana.popović@hallberg.example,Vertrieb,Zentrale Tübingen,Spezialist:in,E10513,2006-06-20
+E10536,Patrick,Friedrich,patrick.friedrich@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10514,2021-10-06
+E10537,Dimitri,Richter,dimitri.richter@hallberg.example,Vertrieb,Zentrale Tübingen,Sachbearbeiter:in,E10513,2010-12-27
+E10538,Andreas,Wolf,andreas.wolf@hallberg.example,Vertrieb,Zentrale Tübingen,Spezialist:in,E10514,2008-11-24
+E10539,Nikola,Fuchs,nikola.fuchs@hallberg.example,Vertrieb,Zentrale Tübingen,Sachbearbeiter:in,E10512,2018-09-19
+E10540,Fatma,Kaya,fatma.kaya@hallberg.example,Vertrieb,Zentrale Tübingen,Spezialist:in,E10512,2019-01-15
+E10541,Matthias,Fischer,matthias.fischer@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10514,2005-01-24
+E10542,Jana,Brenner,jana.brenner@hallberg.example,Vertrieb,Zentrale Tübingen,Sachbearbeiter:in,E10514,2008-07-02
+E10543,Katharina,Friedrich,katharina.friedrich@hallberg.example,Vertrieb,Zentrale Tübingen,Key Account Manager:in,E10512,2014-01-29
+E10544,Sophie,Hoffmann,sophie.hoffmann@hallberg.example,Vertrieb,Zentrale Tübingen,Spezialist:in,E10513,2010-09-16
+E10545,Emre,Schröder,emre.schroeder@hallberg.example,Vertrieb,Zentrale Tübingen,Spezialist:in,E10515,2023-06-21
+E10546,Alexander,Schneider,alexander.schneider@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10513,2018-01-07
+E10547,Andreas,Scholz,andreas.scholz@hallberg.example,Vertrieb,Zentrale Tübingen,Analyst:in,E10513,2005-06-16
+E10548,Paul,Schäfer,paul.schaefer@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10515,2010-07-30
+E10549,Andreas,Weber,andreas.weber@hallberg.example,Vertrieb,Zentrale Tübingen,Referent:in,E10514,2008-11-05
+E10550,Stefan,Novak,stefan.novak@hallberg.example,Vertrieb,Zentrale Tübingen,Key Account Manager:in,E10512,2013-07-18
+E10551,Birgit,Schmidt,birgit.schmidt@hallberg.example,Vertrieb,Zentrale Tübingen,Referent:in,E10512,2019-04-18
+E10552,Birgit,Huber,birgit.huber@hallberg.example,Vertrieb,Zentrale Tübingen,Analyst:in,E10513,2010-05-03
+E10553,Eva,Berger,eva.berger@hallberg.example,Vertrieb,Zentrale Tübingen,Referent:in,E10514,2005-04-03
+E10554,Simon,Peters,simon.peters@hallberg.example,Vertrieb,Zentrale Tübingen,Spezialist:in,E10513,2013-06-01
+E10555,Ralf,Friedrich,ralf.friedrich@hallberg.example,Vertrieb,Zentrale Tübingen,Referent:in,E10512,2019-07-26
+E10556,Michael,Peters,michael.peters@hallberg.example,Vertrieb,Zentrale Tübingen,Spezialist:in,E10515,2009-06-12
+E10557,Birgit,Richter,birgit.richter@hallberg.example,Vertrieb,Zentrale Tübingen,Sachbearbeiter:in,E10514,2025-06-15
+E10558,Jonas,Walter,jonas.walter@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10513,2017-11-12
+E10559,Oliver,Lehmann,oliver.lehmann@hallberg.example,Vertrieb,Zentrale Tübingen,Analyst:in,E10514,2008-10-24
+E10560,Sabine,König,sabine.koenig@hallberg.example,Vertrieb,Zentrale Tübingen,Sachbearbeiter:in,E10512,2007-09-19
+E10561,Tobias,Weber,tobias.weber@hallberg.example,Vertrieb,Zentrale Tübingen,Analyst:in,E10514,2010-12-26
+E10562,Mehmet,Krüger,mehmet.krueger@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10512,2008-04-25
+E10563,Fatma,Schmitt,fatma.schmitt@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10512,2013-04-22
+E10564,Uwe,Schneider,uwe.schneider@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10515,2024-03-08
+E10565,Michael,Hartmann,michael.hartmann@hallberg.example,Vertrieb,Zentrale Tübingen,Spezialist:in,E10515,2009-05-17
+E10566,Nina,Ivanov,nina.ivanov@hallberg.example,Vertrieb,Zentrale Tübingen,Key Account Manager:in,E10515,2019-04-27
+E10567,David,Maier,david.maier@hallberg.example,Vertrieb,Zentrale Tübingen,Key Account Manager:in,E10513,2021-05-18
+E10568,Petra,Ivanov,petra.ivanov@hallberg.example,Vertrieb,Zentrale Tübingen,Sachbearbeiter:in,E10512,2024-06-07
+E10569,Markus,Fischer,markus.fischer@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10512,2022-03-17
+E10570,Simon,Ludwig,simon.ludwig@hallberg.example,Vertrieb,Zentrale Tübingen,Key Account Manager:in,E10514,2013-12-12
+E10571,Andrea,Baumann,andrea.baumann@hallberg.example,Vertrieb,Zentrale Tübingen,Referent:in,E10513,2021-04-28
+E10572,David,Bauer,david.bauer@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10512,2011-07-20
+E10573,Miriam,Ivanov,miriam.ivanov@hallberg.example,Vertrieb,Zentrale Tübingen,Referent:in,E10512,2023-01-08
+E10574,Sven,Ferrari,sven.ferrari@hallberg.example,Vertrieb,Zentrale Tübingen,Sachbearbeiter:in,E10512,2007-08-19
+E10575,Emma,Graf,emma.graf@hallberg.example,Vertrieb,Zentrale Tübingen,Spezialist:in,E10515,2005-12-09
+E10576,Ivana,Winkler,ivana.winkler@hallberg.example,Vertrieb,Zentrale Tübingen,Spezialist:in,E10513,2024-02-06
+E10577,Kevin,Klein,kevin.klein@hallberg.example,Vertrieb,Zentrale Tübingen,Analyst:in,E10514,2013-04-12
+E10578,Jana,Friedrich,jana.friedrich@hallberg.example,Vertrieb,Zentrale Tübingen,Analyst:in,E10514,2006-01-31
+E10579,Florian,Richter,florian.richter@hallberg.example,Vertrieb,Zentrale Tübingen,Key Account Manager:in,E10512,2006-10-26
+E10580,Oliver,Günther,oliver.guenther@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10515,2013-03-22
+E10581,Jonas,Friedrich,jonas.friedrich@hallberg.example,Vertrieb,Zentrale Tübingen,Key Account Manager:in,E10512,2018-05-30
+E10582,Katharina,Krause,katharina.krause@hallberg.example,Vertrieb,Zentrale Tübingen,Referent:in,E10513,2016-05-27
+E10583,Luca,Schäfer,luca.schaefer@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10512,2005-04-24
+E10584,Sabine,Günther,sabine.guenther@hallberg.example,Vertrieb,Zentrale Tübingen,Referent:in,E10513,2014-01-25
+E10585,Sarah,Lange,sarah.lange@hallberg.example,Vertrieb,Zentrale Tübingen,Key Account Manager:in,E10515,2024-04-27
+E10586,Natalia,Fischer,natalia.fischer@hallberg.example,Vertrieb,Zentrale Tübingen,Sachbearbeiter:in,E10513,2005-12-09
+E10587,Mehmet,Scholz,mehmet.scholz@hallberg.example,Vertrieb,Zentrale Tübingen,Key Account Manager:in,E10513,2013-08-21
+E10588,Laura,Herrmann,laura.herrmann@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10515,2019-04-03
+E10589,Luca,Kowalski,luca.kowalski@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10513,2010-11-01
+E10590,Elif,Müller,elif.mueller@hallberg.example,Vertrieb,Zentrale Tübingen,Key Account Manager:in,E10513,2022-05-09
+E10591,David,Baumann,david.baumann@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10513,2007-09-11
+E10592,Dominik,Graf,dominik.graf@hallberg.example,Vertrieb,Zentrale Tübingen,Spezialist:in,E10515,2009-05-24
+E10593,Lena,Novak,lena.novak@hallberg.example,Vertrieb,Zentrale Tübingen,Analyst:in,E10512,2014-08-11
+E10594,Anna,Bauer,anna.bauer@hallberg.example,Vertrieb,Zentrale Tübingen,Sachbearbeiter:in,E10513,2015-03-12
+E10595,David,Günther,david.guenther@hallberg.example,Einkauf,Zentrale Tübingen,Leitung Einkauf,E10001,2011-03-17
+E10596,Frank,Schmid,frank.schmid@hallberg.example,Einkauf,Zentrale Tübingen,Teamleitung,E10595,2011-10-24
+E10597,Miriam,Berger,miriam.berger@hallberg.example,Einkauf,Zentrale Tübingen,Sachbearbeiter:in,E10596,2009-07-21
+E10598,Uwe,Lange,uwe.lange@hallberg.example,Einkauf,Zentrale Tübingen,Assistenz,E10596,2022-03-23
+E10599,Lea,Yılmaz,lea.yilmaz@hallberg.example,Einkauf,Zentrale Tübingen,Spezialist:in,E10596,2021-09-17
+E10600,Benjamin,Hofmann,benjamin.hofmann@hallberg.example,Einkauf,Zentrale Tübingen,Analyst:in,E10596,2014-07-22
+E10601,Tobias,Schwarz,tobias.schwarz@hallberg.example,Einkauf,Zentrale Tübingen,Analyst:in,E10596,2016-12-04
+E10602,Sandra,Baumann,sandra.baumann@hallberg.example,Einkauf,Zentrale Tübingen,Spezialist:in,E10596,2017-07-04
+E10603,David,Keller,david.keller@hallberg.example,Einkauf,Zentrale Tübingen,Key Account Manager:in,E10596,2010-05-28
+E10604,Lisa,Koch,lisa.koch@hallberg.example,Einkauf,Zentrale Tübingen,Assistenz,E10596,2005-07-18
+E10605,Hannah,Beck,hannah.beck@hallberg.example,Einkauf,Zentrale Tübingen,Spezialist:in,E10596,2010-05-09
+E10606,Lisa,Herrmann,lisa.herrmann@hallberg.example,Einkauf,Zentrale Tübingen,Referent:in,E10596,2007-04-11
+E10607,Philipp,Becker,philipp.becker@hallberg.example,Einkauf,Zentrale Tübingen,Assistenz,E10596,2019-06-16
+E10608,Lena,Lang,lena.lang@hallberg.example,Einkauf,Zentrale Tübingen,Spezialist:in,E10596,2011-06-23
+E10609,Noah,Schmitz,noah.schmitz@hallberg.example,Einkauf,Zentrale Tübingen,Assistenz,E10596,2015-12-23
+E10610,Emma,Koch,emma.koch@hallberg.example,Einkauf,Zentrale Tübingen,Spezialist:in,E10596,2008-11-14
+E10611,Birgit,Fuchs,birgit.fuchs@hallberg.example,Einkauf,Zentrale Tübingen,Key Account Manager:in,E10596,2006-03-16
+E10612,Julia,Maier,julia.maier@hallberg.example,Einkauf,Zentrale Tübingen,Key Account Manager:in,E10596,2021-02-13
+E10613,Aylin,Weber,aylin.weber@hallberg.example,Einkauf,Zentrale Tübingen,Referent:in,E10596,2018-08-09
+E10614,Ivana,Brenner,ivana.brenner@hallberg.example,Einkauf,Zentrale Tübingen,Assistenz,E10596,2010-09-29
+E10615,Andreas,Nowak,andreas.nowak@hallberg.example,Einkauf,Zentrale Tübingen,Analyst:in,E10596,2024-11-17
+E10616,Julia,Roth,julia.roth@hallberg.example,Einkauf,Zentrale Tübingen,Key Account Manager:in,E10596,2017-02-26
+E10617,Aylin,Ludwig,aylin.ludwig@hallberg.example,Einkauf,Zentrale Tübingen,Sachbearbeiter:in,E10596,2020-09-27
+E10618,Laura,Möller,laura.moeller@hallberg.example,Einkauf,Zentrale Tübingen,Key Account Manager:in,E10596,2024-12-22
+E10619,Emre,Kowalski,emre.kowalski@hallberg.example,Einkauf,Zentrale Tübingen,Analyst:in,E10596,2021-10-09
+E10620,Alina,Kaiser,alina.kaiser@hallberg.example,Einkauf,Zentrale Tübingen,Analyst:in,E10596,2017-06-27
+E10621,Markus,Kowalski,markus.kowalski@hallberg.example,Einkauf,Zentrale Tübingen,Spezialist:in,E10596,2013-03-23
+E10622,Sophie,Becker,sophie.becker@hallberg.example,Einkauf,Zentrale Tübingen,Spezialist:in,E10596,2016-09-18
+E10623,Birgit,Zimmermann,birgit.zimmermann@hallberg.example,Einkauf,Zentrale Tübingen,Analyst:in,E10596,2010-11-12
+E10624,Maximilian,Schulz,maximilian.schulz@hallberg.example,Einkauf,Zentrale Tübingen,Referent:in,E10596,2017-11-21
+E10625,Jan,Peters,jan.peters@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Leitung Finanzen & Controlling,E10001,2015-09-20
+E10626,Sebastian,Schmitz,sebastian.schmitz@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Teamleitung,E10625,2021-09-25
+E10627,Michael,Möller,michael.moeller@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Sachbearbeiter:in,E10626,2010-02-07
+E10628,Lea,Frank,lea.frank@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Analyst:in,E10626,2009-10-03
+E10629,Sven,Winkler,sven.winkler@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Assistenz,E10626,2025-07-13
+E10630,Lukas,Frank,lukas.frank@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Assistenz,E10626,2016-11-10
+E10631,Markus,Müller,markus.mueller@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Referent:in,E10626,2022-02-24
+E10632,Sophie,Herrmann,sophie.herrmann@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Spezialist:in,E10626,2014-03-17
+E10633,Sophie,Peters,sophie.peters@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Assistenz,E10626,2013-08-20
+E10634,Jürgen,Herrmann,juergen.herrmann@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Key Account Manager:in,E10626,2013-09-20
+E10635,Nina,Kaya,nina.kaya@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Spezialist:in,E10626,2010-07-19
+E10636,Dominik,Walter,dominik.walter@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Spezialist:in,E10626,2010-09-21
+E10637,Jana,Seitz,jana.seitz@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Sachbearbeiter:in,E10626,2023-02-18
+E10638,Miriam,Braun,miriam.braun@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Assistenz,E10626,2013-07-02
+E10639,Dimitri,Weber,dimitri.weber@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Spezialist:in,E10626,2016-07-29
+E10640,Emma,Hoffmann,emma.hoffmann@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Assistenz,E10626,2013-10-28
+E10641,Maximilian,Lorenz,maximilian.lorenz@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Spezialist:in,E10626,2009-11-20
+E10642,Patrick,Brenner,patrick.brenner@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Key Account Manager:in,E10626,2014-06-09
+E10643,Monika,Ludwig,monika.ludwig@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Assistenz,E10626,2008-09-01
+E10644,Jürgen,Koch,juergen.koch@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Key Account Manager:in,E10626,2023-04-28
+E10645,Petra,Weiß,petra.weiss@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Assistenz,E10626,2007-07-21
+E10646,Dimitri,Baumann,dimitri.baumann@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Spezialist:in,E10626,2015-06-26
+E10647,Stefan,Schmitt,stefan.schmitt@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Referent:in,E10626,2012-06-03
+E10648,Monika,Ferrari,monika.ferrari@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Key Account Manager:in,E10626,2024-08-19
+E10649,Noah,Schröder,noah.schroeder@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Sachbearbeiter:in,E10626,2018-10-10
+E10650,Elif,Kaiser,elif.kaiser@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Spezialist:in,E10626,2014-04-27
+E10651,Lea,Schneider,lea.schneider@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Spezialist:in,E10626,2012-08-05
+E10652,Thomas,Schmitz,thomas.schmitz@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Referent:in,E10626,2011-12-31
+E10653,Sarah,Weber,sarah.weber@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Assistenz,E10626,2023-03-18
+E10654,Mehmet,Köhler,mehmet.koehler@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Sachbearbeiter:in,E10626,2007-12-30
+E10655,Sarah,Schulz,sarah.schulz@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Analyst:in,E10626,2009-10-30
+E10656,Jonas,Klein,jonas.klein@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Key Account Manager:in,E10626,2005-07-05
+E10657,Jana,Kowalski,jana.kowalski@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Analyst:in,E10626,2018-04-08
+E10658,Lukas,Rossi,lukas.rossi@hallberg.example,Finanzen & Controlling,Zentrale Tübingen,Key Account Manager:in,E10626,2010-12-27
+E10659,Daniel,Demir,daniel.demir@hallberg.example,IT,Zentrale Tübingen,Leitung IT,E10001,2016-04-23
+E10660,Lukas,Walter,lukas.walter@hallberg.example,IT,Zentrale Tübingen,Teamleitung,E10659,2010-05-22
+E10661,Daniel,Albrecht,daniel.albrecht@hallberg.example,IT,Zentrale Tübingen,Teamleitung,E10659,2015-05-16
+E10662,Simon,Lang,simon.lang@hallberg.example,IT,Zentrale Tübingen,Spezialist:in,E10661,2023-06-17
+E10663,Oliver,Friedrich,oliver.friedrich@hallberg.example,IT,Zentrale Tübingen,Spezialist:in,E10661,2008-10-08
+E10664,Fatma,Ferrari,fatma.ferrari@hallberg.example,IT,Zentrale Tübingen,Spezialist:in,E10661,2009-04-18
+E10665,Alina,Weber,alina.weber@hallberg.example,IT,Zentrale Tübingen,Assistenz,E10660,2010-01-13
+E10666,Mia,Müller,mia.mueller@hallberg.example,IT,Zentrale Tübingen,Key Account Manager:in,E10661,2018-03-22
+E10667,Nikola,Novak,nikola.novak@hallberg.example,IT,Zentrale Tübingen,Spezialist:in,E10660,2018-04-05
+E10668,Christian,Brenner,christian.brenner@hallberg.example,IT,Zentrale Tübingen,Key Account Manager:in,E10660,2021-03-10
+E10669,Stefanie,Zimmermann,stefanie.zimmermann@hallberg.example,IT,Zentrale Tübingen,Assistenz,E10660,2007-03-06
+E10670,Noah,Maier,noah.maier@hallberg.example,IT,Zentrale Tübingen,Analyst:in,E10660,2020-05-04
+E10671,Nikola,Nowak,nikola.nowak@hallberg.example,IT,Zentrale Tübingen,Sachbearbeiter:in,E10660,2018-11-16
+E10672,Noah,Mayer,noah.mayer@hallberg.example,IT,Zentrale Tübingen,Key Account Manager:in,E10660,2006-12-06
+E10673,Julia,Kowalski,julia.kowalski@hallberg.example,IT,Zentrale Tübingen,Spezialist:in,E10661,2013-11-01
+E10674,Johanna,Wagner,johanna.wagner@hallberg.example,IT,Zentrale Tübingen,Analyst:in,E10661,2011-02-05
+E10675,Maximilian,Graf,maximilian.graf@hallberg.example,IT,Zentrale Tübingen,Sachbearbeiter:in,E10660,2014-12-21
+E10676,Julia,Ludwig,julia.ludwig@hallberg.example,IT,Zentrale Tübingen,Assistenz,E10660,2010-11-12
+E10677,Petra,Seitz,petra.seitz@hallberg.example,IT,Zentrale Tübingen,Sachbearbeiter:in,E10660,2020-12-30
+E10678,Benjamin,Rossi,benjamin.rossi@hallberg.example,IT,Zentrale Tübingen,Assistenz,E10661,2010-06-12
+E10679,Marie,Bauer,marie.bauer@hallberg.example,IT,Zentrale Tübingen,Referent:in,E10661,2022-06-02
+E10680,Marco,Krause,marco.krause@hallberg.example,IT,Zentrale Tübingen,Spezialist:in,E10660,2013-12-29
+E10681,Andreas,Brenner,andreas.brenner@hallberg.example,IT,Zentrale Tübingen,Assistenz,E10660,2020-12-24
+E10682,Alina,Peters,alina.peters@hallberg.example,IT,Zentrale Tübingen,Analyst:in,E10660,2005-07-18
+E10683,Tobias,Klein,tobias.klein@hallberg.example,IT,Zentrale Tübingen,Referent:in,E10661,2025-09-30
+E10684,Lukas,Richter,lukas.richter@hallberg.example,IT,Zentrale Tübingen,Spezialist:in,E10660,2022-08-04
+E10685,Jürgen,Schmitz,juergen.schmitz@hallberg.example,IT,Zentrale Tübingen,Sachbearbeiter:in,E10661,2007-09-26
+E10686,Hannah,Koch,hannah.koch@hallberg.example,IT,Zentrale Tübingen,Referent:in,E10660,2018-01-27
+E10687,Carina,Richter,carina.richter@hallberg.example,IT,Zentrale Tübingen,Spezialist:in,E10660,2007-02-04
+E10688,Andrea,Ivanov,andrea.ivanov@hallberg.example,IT,Zentrale Tübingen,Assistenz,E10661,2020-11-12
+E10689,Simon,Werner,simon.werner@hallberg.example,IT,Zentrale Tübingen,Sachbearbeiter:in,E10660,2008-04-16
+E10690,Petra,Vogel,petra.vogel@hallberg.example,IT,Zentrale Tübingen,Spezialist:in,E10661,2011-01-19
+E10691,Mehmet,Schmitt,mehmet.schmitt@hallberg.example,IT,Zentrale Tübingen,Analyst:in,E10661,2017-09-09
+E10692,David,Peters,david.peters@hallberg.example,IT,Zentrale Tübingen,Spezialist:in,E10661,2005-05-15
+E10693,Paul,Krüger,paul.krueger@hallberg.example,IT,Zentrale Tübingen,Analyst:in,E10660,2023-09-06
+E10694,Kevin,Krause,kevin.krause@hallberg.example,IT,Zentrale Tübingen,Spezialist:in,E10661,2011-01-13
+E10695,Aylin,Zimmermann,aylin.zimmermann@hallberg.example,IT,Zentrale Tübingen,Sachbearbeiter:in,E10660,2022-05-10
+E10696,Sarah,Graf,sarah.graf@hallberg.example,IT,Zentrale Tübingen,Assistenz,E10660,2009-06-08
+E10697,Anna,Frank,anna.frank@hallberg.example,IT,Zentrale Tübingen,Analyst:in,E10661,2018-02-20
+E10698,Ralf,Kaiser,ralf.kaiser@hallberg.example,IT,Zentrale Tübingen,Referent:in,E10661,2011-02-18
+E10699,Matthias,Beck,matthias.beck@hallberg.example,IT,Zentrale Tübingen,Key Account Manager:in,E10661,2010-09-05
+E10700,Tobias,Schulz,tobias.schulz@hallberg.example,IT,Zentrale Tübingen,Referent:in,E10660,2022-06-17
+E10701,Emma,Zimmermann,emma.zimmermann@hallberg.example,Personal,Zentrale Tübingen,Leitung Personal,E10001,2010-12-24
+E10702,Aylin,Vogel,aylin.vogel@hallberg.example,Personal,Zentrale Tübingen,Teamleitung,E10701,2013-04-15
+E10703,Lisa,Schulze,lisa.schulze@hallberg.example,Personal,Zentrale Tübingen,Key Account Manager:in,E10702,2012-12-28
+E10704,Alexander,Peters,alexander.peters@hallberg.example,Personal,Zentrale Tübingen,Key Account Manager:in,E10702,2014-09-15
+E10705,Emre,Yılmaz,emre.yilmaz@hallberg.example,Personal,Zentrale Tübingen,Key Account Manager:in,E10702,2016-04-06
+E10706,Jürgen,Graf,juergen.graf@hallberg.example,Personal,Zentrale Tübingen,Referent:in,E10702,2005-11-01
+E10707,Lea,Kowalski,lea.kowalski@hallberg.example,Personal,Zentrale Tübingen,Referent:in,E10702,2009-03-19
+E10708,Sarah,Hofmann,sarah.hofmann@hallberg.example,Personal,Zentrale Tübingen,Sachbearbeiter:in,E10702,2011-01-08
+E10709,Marie,Yılmaz,marie.yilmaz@hallberg.example,Personal,Zentrale Tübingen,Spezialist:in,E10702,2018-07-27
+E10710,Daniel,Baumann,daniel.baumann@hallberg.example,Personal,Zentrale Tübingen,Referent:in,E10702,2018-06-25
+E10711,Stefan,Becker,stefan.becker@hallberg.example,Personal,Zentrale Tübingen,Analyst:in,E10702,2017-08-19
+E10712,Natalia,Frank,natalia.frank@hallberg.example,Personal,Zentrale Tübingen,Spezialist:in,E10702,2016-06-18
+E10713,Marie,Günther,marie.guenther@hallberg.example,Personal,Zentrale Tübingen,Analyst:in,E10702,2018-11-18
+E10714,Thomas,Zimmermann,thomas.zimmermann@hallberg.example,Personal,Zentrale Tübingen,Key Account Manager:in,E10702,2013-08-22
+E10715,Paul,Krause,paul.krause@hallberg.example,Personal,Zentrale Tübingen,Sachbearbeiter:in,E10702,2019-07-03
+E10716,Laura,Vogel,laura.vogel@hallberg.example,Personal,Zentrale Tübingen,Spezialist:in,E10702,2021-10-09
+E10717,Emre,Schulze,emre.schulze@hallberg.example,Personal,Zentrale Tübingen,Key Account Manager:in,E10702,2013-10-04
+E10718,Sebastian,Krüger,sebastian.krueger@hallberg.example,Personal,Zentrale Tübingen,Spezialist:in,E10702,2012-05-16
+E10719,Alina,Lange,alina.lange@hallberg.example,Personal,Zentrale Tübingen,Spezialist:in,E10702,2010-12-12
+E10720,Thomas,Schulz,thomas.schulz@hallberg.example,Personal,Zentrale Tübingen,Spezialist:in,E10702,2019-04-07
+E10721,Hannah,Novak,hannah.novak@hallberg.example,Personal,Zentrale Tübingen,Analyst:in,E10702,2005-06-20
+E10722,Sebastian,Richter,sebastian.richter@hallberg.example,Personal,Zentrale Tübingen,Key Account Manager:in,E10702,2010-11-23
+E10723,Sven,Graf,sven.graf@hallberg.example,Personal,Zentrale Tübingen,Key Account Manager:in,E10702,2008-07-28
+E10724,Marco,Köhler,marco.koehler@hallberg.example,Personal,Zentrale Tübingen,Referent:in,E10702,2009-05-11
+E10725,Marie,Ludwig,marie.ludwig@hallberg.example,Marketing,Zentrale Tübingen,Leitung Marketing,E10001,2017-12-30
+E10726,Fatma,Wolf,fatma.wolf@hallberg.example,Marketing,Zentrale Tübingen,Teamleitung,E10725,2021-02-13
+E10727,Sandra,Herrmann,sandra.herrmann@hallberg.example,Marketing,Zentrale Tübingen,Sachbearbeiter:in,E10726,2009-07-08
+E10728,Kevin,Vogel,kevin.vogel@hallberg.example,Marketing,Zentrale Tübingen,Sachbearbeiter:in,E10726,2015-02-25
+E10729,Frank,Krüger,frank.krueger@hallberg.example,Marketing,Zentrale Tübingen,Assistenz,E10726,2009-03-25
+E10730,Noah,Scholz,noah.scholz@hallberg.example,Marketing,Zentrale Tübingen,Analyst:in,E10726,2006-03-12
+E10731,Johanna,Ludwig,johanna.ludwig@hallberg.example,Marketing,Zentrale Tübingen,Key Account Manager:in,E10726,2007-09-22
+E10732,Sebastian,Schröder,sebastian.schroeder@hallberg.example,Marketing,Zentrale Tübingen,Key Account Manager:in,E10726,2025-10-10
+E10733,Hannah,Mayer,hannah.mayer@hallberg.example,Marketing,Zentrale Tübingen,Key Account Manager:in,E10726,2020-06-04
+E10734,Emma,Kaiser,emma.kaiser@hallberg.example,Marketing,Zentrale Tübingen,Spezialist:in,E10726,2019-04-23
+E10735,Mia,Beck,mia.beck@hallberg.example,Marketing,Zentrale Tübingen,Key Account Manager:in,E10726,2024-04-02
+E10736,Lea,Albrecht,lea.albrecht@hallberg.example,Marketing,Zentrale Tübingen,Referent:in,E10726,2025-06-29
+E10737,Lukas,Schulz,lukas.schulz@hallberg.example,Marketing,Zentrale Tübingen,Key Account Manager:in,E10726,2020-03-06
+E10738,Hannah,Demir,hannah.demir@hallberg.example,Marketing,Zentrale Tübingen,Sachbearbeiter:in,E10726,2020-10-26
+E10739,Kevin,Scholz,kevin.scholz@hallberg.example,Marketing,Zentrale Tübingen,Analyst:in,E10726,2018-01-08
+E10740,Marie,Friedrich,marie.friedrich@hallberg.example,Marketing,Zentrale Tübingen,Key Account Manager:in,E10726,2010-06-17
+E10741,Carina,Herrmann,carina.herrmann@hallberg.example,Marketing,Zentrale Tübingen,Analyst:in,E10726,2018-08-03
+E10742,Lisa,Weber,lisa.weber@hallberg.example,Marketing,Zentrale Tübingen,Spezialist:in,E10726,2005-01-14
+E10743,Simon,Schulze,simon.schulze@hallberg.example,Marketing,Zentrale Tübingen,Sachbearbeiter:in,E10726,2006-10-19
+E10744,Tim,Roth,tim.roth@hallberg.example,Marketing,Zentrale Tübingen,Referent:in,E10726,2018-06-29
+E10745,Carina,Schneider,carina.schneider@hallberg.example,Marketing,Zentrale Tübingen,Analyst:in,E10726,2007-09-15
+E10746,Lena,Krause,lena.krause@hallberg.example,Marketing,Zentrale Tübingen,Sachbearbeiter:in,E10726,2025-07-18
+E10747,Emma,Meyer,emma.meyer@hallberg.example,Marketing,Zentrale Tübingen,Sachbearbeiter:in,E10726,2026-03-29
+E10748,Lena,Ivanov,lena.ivanov@hallberg.example,Marketing,Zentrale Tübingen,Sachbearbeiter:in,E10726,2025-09-10
+E10749,David,Hartmann,david.hartmann@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Leitung Geschäftsleitung & Verwaltung,E10001,2018-01-15
+E10750,Sophie,Koch,sophie.koch@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Teamleitung,E10749,2022-03-13
+E10751,Katharina,Peters,katharina.peters@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Spezialist:in,E10750,2006-05-18
+E10752,Elif,Haas,elif.haas@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Spezialist:in,E10750,2015-12-04
+E10753,Emma,Schmitz,emma.schmitz@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Assistenz,E10750,2009-02-26
+E10754,Claudia,Schäfer,claudia.schaefer@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Referent:in,E10750,2026-02-06
+E10755,Frank,Haas,frank.haas@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Spezialist:in,E10750,2015-04-05
+E10756,Natalia,Becker,natalia.becker@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Sachbearbeiter:in,E10750,2009-11-19
+E10757,Uwe,Brenner,uwe.brenner@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Sachbearbeiter:in,E10750,2011-11-17
+E10758,Uwe,Schmidt,uwe.schmidt@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Spezialist:in,E10750,2013-05-15
+E10759,Aylin,Klein,aylin.klein@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Assistenz,E10750,2018-01-11
+E10760,Noah,Lehmann,noah.lehmann@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Sachbearbeiter:in,E10750,2009-08-06
+E10761,Philipp,Neumann,philipp.neumann@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Analyst:in,E10750,2006-03-13
+E10762,Julia,Hartmann,julia.hartmann@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Spezialist:in,E10750,2012-08-11
+E10763,Daniel,Lange,daniel.lange@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Assistenz,E10750,2014-06-01
+E10764,Thomas,Ferrari,thomas.ferrari@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Assistenz,E10750,2023-11-23
+E10765,Andreas,Yılmaz,andreas.yilmaz@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Sachbearbeiter:in,E10750,2020-09-30
+E10766,Oliver,Yılmaz,oliver.yilmaz@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Analyst:in,E10750,2008-07-02
+E10767,Natalia,Seitz,natalia.seitz@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Referent:in,E10750,2021-09-13
+E10768,Uwe,Walter,uwe.walter@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Referent:in,E10750,2012-10-10
+E10769,Thomas,Schmid,thomas.schmid@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Assistenz,E10750,2024-11-21
+E10770,Noah,Baumann,noah.baumann@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Sachbearbeiter:in,E10750,2020-11-23
+E10771,Carina,Maier,carina.maier@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Key Account Manager:in,E10750,2005-03-12
+E10772,Nina,Kaiser,nina.kaiser@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Sachbearbeiter:in,E10750,2024-07-18
+E10773,Jana,Scholz,jana.scholz@hallberg.example,Geschäftsleitung & Verwaltung,Zentrale Tübingen,Assistenz,E10750,2011-11-23
+E10774,Lisa,Schulz,lisa.schulz@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10006,2026-09-09
+E10775,Nina,Werner,nina.werner@hallberg.example,Produktion,Werk Reutlingen,Maschinenbediener:in,E10004,2026-09-13
+E10776,Eva,Mayer,eva.mayer@hallberg.example,Produktion,Werk Reutlingen,Elektroniker:in,E10005,2026-07-15
+E10777,Christina,König,christina.koenig@hallberg.example,Produktion,Werk Reutlingen,Mechatroniker:in,E10003,2026-07-23
+E10778,Felix,Lehmann,felix.lehmann@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10007,2026-08-31
+E10779,Daniel,Krüger,daniel.krueger@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10008,2026-07-29
+E10780,Anna,Baumann,anna.baumann@hallberg.example,Produktion,Werk Reutlingen,Industriemechaniker:in,E10004,2026-07-26
+E10781,Miriam,Roth,miriam.roth@hallberg.example,Produktion,Werk Reutlingen,Fachkraft für Lagerlogistik,E10009,2026-09-24
+E10782,Uwe,Werner,uwe.werner@hallberg.example,Produktion,Werk Reutlingen,Schichtführer:in,E10007,2026-07-30
+E10783,Emre,Vogel,emre.vogel@hallberg.example,Logistik,Werk Reutlingen,Mechatroniker:in,E10290,2026-08-18
+E10784,Emre,Hoffmann,emre.hoffmann@hallberg.example,Logistik,Werk Reutlingen,Mechatroniker:in,E10290,2026-07-09
+E10785,Markus,Rossi,markus.rossi@hallberg.example,Logistik,Werk Reutlingen,Fachkraft für Lagerlogistik,E10290,2026-07-12
+E10786,Maximilian,Nowak,maximilian.nowak@hallberg.example,Logistik,Werk Reutlingen,Mechatroniker:in,E10293,2026-10-23
+E10787,Markus,Yılmaz,markus.yilmaz@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10512,2026-08-10
+E10788,Andrea,Demir,andrea.demir@hallberg.example,Vertrieb,Zentrale Tübingen,Sachbearbeiter:in,E10514,2026-07-25
+E10789,Alexander,Ivanov,alexander.ivanov@hallberg.example,Vertrieb,Zentrale Tübingen,Spezialist:in,E10512,2026-10-24
+E10790,Dominik,Hahn,dominik.hahn@hallberg.example,Vertrieb,Zentrale Tübingen,Assistenz,E10514,2026-08-18
+E10791,Tobias,Becker,tobias.becker@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Techniker:in,E10383,2026-08-26
+E10792,Fatma,Wagner,fatma.wagner@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Projektingenieur:in,E10384,2026-09-01
+E10793,Leon,Lorenz,leon.lorenz@hallberg.example,Forschung & Entwicklung,Zentrale Tübingen,Techniker:in,E10383,2026-10-24
+E10794,Noah,Graf,noah.graf@hallberg.example,IT,Zentrale Tübingen,Spezialist:in,E10661,2026-10-27
+E10795,Birgit,Schwarz,birgit.schwarz@hallberg.example,IT,Zentrale Tübingen,Key Account Manager:in,E10660,2026-09-02
+E10796,Tobias,Lehmann,tobias.lehmann@hallberg.example,Instandhaltung,Werk Reutlingen,Maschinenbediener:in,E10228,2026-08-08
+E10797,Johanna,Schröder,johanna.schroeder@hallberg.example,Instandhaltung,Werk Reutlingen,Industriemechaniker:in,E10230,2026-07-31
+E10798,Jana,Lang,jana.lang@hallberg.example,Qualitätsmanagement,Werk Reutlingen,Projektingenieur:in,E10473,2026-08-23
+E10799,Christina,Brenner,christina.brenner@hallberg.example,Einkauf,Zentrale Tübingen,Analyst:in,E10596,2026-06-19

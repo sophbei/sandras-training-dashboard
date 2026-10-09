@@ -1,0 +1,16 @@
+de\hallberg\EmployeeOverdueRow.class
+de\hallberg\ComplianceStatus.class
+de\hallberg\SandrasService.class
+de\hallberg\AssignmentCvsReader.class
+de\hallberg\Training.class
+de\hallberg\DashboardData.class
+de\hallberg\DashboardDataLoader.class
+de\hallberg\DashboardController.class
+de\hallberg\TrainingDashboardApplication.class
+de\hallberg\EmployeeCsvReader.class
+de\hallberg\OverdueTrainingRow.class
+model\Assignment.class
+de\hallberg\Employee.class
+de\hallberg\Main.class
+de\hallberg\TrainingCvsReader.class
+de\hallberg\ManagerOverdueRow.class
