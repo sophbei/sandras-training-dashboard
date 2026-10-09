@@ -142,14 +142,14 @@ Weitere Klassen dienen der Aufbereitung der Daten für die einzelnen Tabellen.
 # Die folgenden Screenshots dienen der Visualisierung des Dashboards
  
 # Übersicht: 
-![Dashboard - Übersicht] (screenshots/dashboarduebersicht1.png)
+![Dashboard - Übersicht](screenshots/dashboarduebersicht1.png)
 
 # Noch zuzuweisen:
-![Dashboard - Noch zuzuweisen] (screenshots/dashboardnochzuzuweisen.png)
+![Dashboard - Noch zuzuweisen](screenshots/dashboardnochzuzuweisen.png)
 
 # Überfällig
-![Dashboard - Überfällig] (screenshots/dashboardueberfaellig.png)
+![Dashboard - Überfällig](screenshots/dashboardueberfaellig.png)
 
 # Nach Manager
-![Dashboard - Nach Manager] (screenshots/dashboardnachmanager.png)
+![Dashboard - Nach Manager](screenshots/dashboardnachmanager.png)
  
